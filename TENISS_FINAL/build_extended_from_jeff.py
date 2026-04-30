@@ -8,7 +8,8 @@ import pandas as pd
 
 
 def main():
-    root = Path(r"c:\Users\furim\Desktop\FINAL_tenis")
+    # Lokalizuj root dynamicznie (TENISS_FINAL/build_extended_from_jeff.py -> root)
+    root = Path(__file__).resolve().parent.parent
     base_path = root / "TENISS_FINAL" / "stats" / "csv" / "final_z_statami.csv"
     out_path = root / "TENISS_FINAL" / "stats" / "csv" / "final_z_statami_extended.csv"
 
@@ -27,7 +28,8 @@ def main():
             use_files.append(f)
 
     if not use_files:
-        raise RuntimeError("Brak plikow atp_matches_YYYY.csv (1968-1999) w jeff.")
+        print("  Pomijam: brak plikow atp_matches_YYYY.csv (1968-1999) w jeff/ (gitignore).")
+        return
 
     old = pd.concat([pd.read_csv(f, low_memory=False) for f in use_files], ignore_index=True)
 

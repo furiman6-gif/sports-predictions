@@ -662,6 +662,7 @@ def prepare_bundle(module, n_last_seasons: int, target_mode: str, split_mode: st
         all_df = add_light_bars_features(module, all_df)
         all_df = add_home_away_context_features(module, all_df)
 
+        all_df = _coerce_numeric_columns(all_df)
         long_df = module.build_team_match_history(all_df, use_xg=use_xg)
         long_df = module.add_advanced_rolling_features(long_df)
         full = module.merge_form_features_to_match(all_df, long_df)
