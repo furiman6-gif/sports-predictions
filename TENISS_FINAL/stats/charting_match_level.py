@@ -476,8 +476,12 @@ def main(skip_ta: bool = False) -> pd.DataFrame:
         print("\n[2/2] Pomijam TennisAbstract (skip_ta=True)")
     else:
         print("\n[2/2] TennisAbstract 2026 ...")
-        ta_df = fetch_ta_2026_records()
-        print(f"  -> {len(ta_df):,} rekordow gracz x mecz")
+        try:
+            ta_df = fetch_ta_2026_records()
+            print(f"  -> {len(ta_df):,} rekordow gracz x mecz")
+        except Exception as e:
+            print(f"  OSTRZEZENIE: TennisAbstract niedostepny ({e}), pomijam")
+            ta_df = pd.DataFrame(columns=["player", "date_int", "surface"] + STAT_COLS)
 
     # Zlacz i oblicz rolling
     all_frames = [jeff_df]
