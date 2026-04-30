@@ -9,6 +9,45 @@ FIXTURES_CSV = ROOT / "fixtures_22_ligues_2025_26.csv"
 TODAY = pd.Timestamp.today().normalize()
 SEZON = 2627
 
+
+def _prefix_csv_columns(path):
+    """Naprawia trailing comma / ragged rows w CSV przed pd.read_csv."""
+    try:
+        text = open(path, encoding="utf-8", errors="replace").read()
+    except Exception:
+        return
+    lines = text.splitlines()
+    if not lines:
+        return
+    header_fields = lines[0].rstrip("\r").split(",")
+    while header_fields and header_fields[-1].strip() == "":
+        header_fields.pop()
+    n_cols = len(header_fields)
+    if n_cols == 0:
+        return
+    needs_fix = False
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        if line.rstrip("\r").count(",") + 1 != n_cols:
+            needs_fix = True
+            break
+    if not needs_fix and lines[0].rstrip("\r") == ",".join(header_fields):
+        return
+    fixed = [",".join(header_fields)]
+    for line in lines[1:]:
+        line = line.rstrip("\r")
+        if not line.strip():
+            continue
+        fields = line.split(",")
+        if len(fields) > n_cols:
+            fields = fields[:n_cols]
+        elif len(fields) < n_cols:
+            fields = fields + [""] * (n_cols - len(fields))
+        fixed.append(",".join(fields))
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(fixed) + "\n")
+
 DIV_MAP = {
     "E0":  "England/Premier_League",
     "E1":  "England/Championship",
@@ -387,6 +426,7 @@ def main():
         div_fix["AwayTeam"] = div_fix["AwayTeam"].map(map_team)
         div_fix["Date"] = div_fix["Date"].dt.strftime("%d/%m/%Y")
 
+        _prefix_csv_columns(csv_path)
         df = pd.read_csv(csv_path, low_memory=False, encoding="utf-8-sig", on_bad_lines="warn")
 
         # klucz unikalnosci

@@ -30,6 +30,9 @@ jobs:
       # ══════════════════════════════════════════
       # LIGI - Pipeline pilkarski
       # ══════════════════════════════════════════
+      - name: "[LIGI] Pre-fix CSV column mismatches (clean committed files)"
+        run: python fix_csv_columns.py
+
       - name: "[LIGI] Download results"
         working-directory: ligi
         run: python download_results.py

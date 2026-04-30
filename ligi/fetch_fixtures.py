@@ -20,6 +20,45 @@ BASE = Path(__file__).parent
 # Filtruj mecze tylko do przodu o tyle dni
 DAYS_AHEAD = 7
 
+
+def _prefix_csv_columns(path):
+    """Naprawia trailing comma / ragged rows w CSV przed pd.read_csv."""
+    try:
+        text = open(path, encoding="utf-8", errors="replace").read()
+    except Exception:
+        return
+    lines = text.splitlines()
+    if not lines:
+        return
+    header_fields = lines[0].rstrip("\r").split(",")
+    while header_fields and header_fields[-1].strip() == "":
+        header_fields.pop()
+    n_cols = len(header_fields)
+    if n_cols == 0:
+        return
+    needs_fix = False
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        if line.rstrip("\r").count(",") + 1 != n_cols:
+            needs_fix = True
+            break
+    if not needs_fix and lines[0].rstrip("\r") == ",".join(header_fields):
+        return
+    fixed = [",".join(header_fields)]
+    for line in lines[1:]:
+        line = line.rstrip("\r")
+        if not line.strip():
+            continue
+        fields = line.split(",")
+        if len(fields) > n_cols:
+            fields = fields[:n_cols]
+        elif len(fields) < n_cols:
+            fields = fields + [""] * (n_cols - len(fields))
+        fixed.append(",".join(fields))
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(fixed) + "\n")
+
 # ============================================================
 # Klucz API football-data.org
 # ============================================================
@@ -282,6 +321,7 @@ def append_to_csv(csv_path: Path, fixtures: pd.DataFrame,
         print(f"  {league_label}: brak nadchodzacych meczow")
         return 0
 
+    _prefix_csv_columns(csv_path)
     df = pd.read_csv(csv_path, low_memory=False, on_bad_lines="warn")
     df_parsed = df.copy()
     df_parsed["_date"] = pd.to_datetime(df_parsed["Date"], dayfirst=True, errors="coerce")
