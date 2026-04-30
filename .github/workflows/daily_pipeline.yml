@@ -44,6 +44,9 @@ jobs:
         working-directory: ligi
         run: python append_fixtures_22.py
 
+      - name: "[LIGI] Fix trailing commas in CSVs"
+        run: find ligi -name "wszystkie_sezony.csv" -exec sed -i 's/,$//' {} \;
+
       - name: "[LIGI] Bars6 rankings (22 leagues)"
         working-directory: ligi
         run: |
@@ -122,6 +125,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add data/
+          git add ligi/*/*/wszystkie_sezony.csv || true
           git add ligi/auto_outputs_future/future_predictions_all.csv || true
           git add ligi/auto_outputs_future/future_predictions_1row_all_targets.csv || true
           git add ligi/auto_outputs_future/best_settings.csv || true
