@@ -17,14 +17,18 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def _coerce_numeric_columns(df):
-    """Konwertuje object columns do numeric jesli wszystkie niepuste wartosci sa liczbami.
-    Po naszym CSV fix, kolumny ktore mialy puste stringi (przyszle mecze) sa object dtype
+    """Konwertuje string/object columns do numeric jesli wszystkie niepuste wartosci sa liczbami.
+    Po naszym CSV fix, kolumny ktore mialy puste stringi (przyszle mecze) sa object/string dtype
     zamiast float. Trzeba je wymusic na numeric bo gbm4.py robi df['FTHG'] > df['FTAG']."""
     for col in df.columns:
-        if df[col].dtype != "object":
+        if pd.api.types.is_numeric_dtype(df[col]) or pd.api.types.is_bool_dtype(df[col]):
             continue
-        col_str = df[col].astype(str).str.strip()
-        non_empty_mask = col_str != ""
+        # object lub StringDtype - sprobuj skonwertowac
+        try:
+            col_str = df[col].astype(str).str.strip()
+        except Exception:
+            continue
+        non_empty_mask = (col_str != "") & (col_str.str.lower() != "nan")
         if not non_empty_mask.any():
             continue
         converted = pd.to_numeric(df[col], errors="coerce")
