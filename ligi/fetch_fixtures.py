@@ -160,19 +160,19 @@ LEAGUES_UNDERSTAT = [
         "und_name": "Bundesliga",
         "div":      "D1",
         "sezon":    2627,
-        "csv_path": BASE / "Germany/Bundesliga_1/merged_data.csv",
+        "csv_path": BASE / "Germany/Bundesliga_1/wszystkie_sezony.csv",
     },
     {
         "und_name": "La_liga",
         "div":      "SP1",
         "sezon":    2627,
-        "csv_path": BASE / "Spain/La_Liga/merged_data.csv",
+        "csv_path": BASE / "Spain/La_Liga/wszystkie_sezony.csv",
     },
     {
         "und_name": "Ligue_1",
         "div":      "F1",
         "sezon":    2627,
-        "csv_path": BASE / "France/Ligue_1/merged_data.csv",
+        "csv_path": BASE / "France/Ligue_1/wszystkie_sezony.csv",
     },
     {
         "und_name": "Serie_A",
@@ -199,7 +199,7 @@ LEAGUES_FDORG = [
         "fd_code":  "PPL",
         "div":      "P1",
         "sezon":    2627,
-        "csv_path": BASE / "Portugal/Primeira_Liga/merged_data.csv",
+        "csv_path": BASE / "Portugal/Primeira_Liga/wszystkie_sezony.csv",
     },
 ]
 

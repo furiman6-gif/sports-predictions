@@ -107,6 +107,12 @@ def download_season_csv(code: str, url_season: str) -> tuple[list[str], list[lis
         print(f"    OSTRZEZENIE: pusty CSV dla {code}")
         return None
 
+    # Usun trailing empty columns (football-data.co.uk dodaje trailing comma)
+    while header and header[-1].strip() == "":
+        header.pop()
+    n_cols = len(header)
+    rows = [row[:n_cols] for row in rows]
+
     if "Date" in header:
         date_idx = header.index("Date")
         for row in rows:
@@ -215,6 +221,32 @@ def run_bars5(league_dir: Path) -> bool:
     return proc.returncode == 0
 
 
+def fix_trailing_comma_csv(league_dir: Path) -> None:
+    """Naprawia wszystkie_sezony.csv jezeli wiersze maja wiecej pol niz naglowek (trailing comma)."""
+    merged_file = league_dir / "wszystkie_sezony.csv"
+    if not merged_file.exists():
+        return
+    with open(merged_file, encoding="utf-8", newline="") as f:
+        reader = csv.reader(f)
+        header = next(reader, None)
+        if not header:
+            return
+        n_cols = len(header)
+        rows = list(reader)
+
+    # Sprawdz czy jakikolwiek wiersz ma wiecej pol
+    bad = any(len(r) > n_cols for r in rows)
+    if not bad:
+        return
+
+    print(f"    Naprawiam trailing comma w {merged_file.name}...")
+    with open(merged_file, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+        for row in rows:
+            writer.writerow(row[:n_cols])
+
+
 def main():
     run_bars5_flag = "--run-bars5" in sys.argv
 
@@ -224,6 +256,14 @@ def main():
 
     print(f"Biezacy sezon: URL={url_season}, plik={season_file_name}")
     print(f"Pobieranie z: {FD_BASE}/{url_season}/")
+    print()
+
+    # Jednorazowa naprawa: usun trailing comma z istniejacych CSV
+    print("Sprawdzanie trailing comma w CSV...")
+    for code, (country, league) in LEAGUE_MAP.items():
+        league_dir = BASE_DIR / country / league
+        if league_dir.exists():
+            fix_trailing_comma_csv(league_dir)
     print()
 
     updated_leagues: list[tuple[Path, int]] = []  # (league_dir, nowe_mecze)
