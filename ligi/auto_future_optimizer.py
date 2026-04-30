@@ -1321,6 +1321,9 @@ def main():
                 }
                 errors.append(err)
                 print(f"    BLAD: {e}")
+                if not getattr(detect_future_leagues, "_traceback_printed", False):
+                    traceback.print_exc()
+                    detect_future_leagues._traceback_printed = True
             save_outputs(leagues, all_rows, best_rows, all_features, all_predictions, all_future, all_overdue, errors)
     summary = save_outputs(leagues, all_rows, best_rows, all_features, all_predictions, all_future, all_overdue, errors)
 
