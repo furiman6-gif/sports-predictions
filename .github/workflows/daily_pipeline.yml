@@ -44,8 +44,8 @@ jobs:
         working-directory: ligi
         run: python append_fixtures_22.py
 
-      - name: "[LIGI] Fix trailing commas in CSVs"
-        run: find ligi -name "wszystkie_sezony.csv" -exec sed -i 's/,$//' {} \;
+      - name: "[LIGI] Fix CSV column mismatches (run after every step that writes CSVs)"
+        run: python fix_csv_columns.py
 
       - name: "[LIGI] Bars6 rankings (22 leagues)"
         working-directory: ligi
