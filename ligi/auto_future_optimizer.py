@@ -16,6 +16,24 @@ OUT_DIR = ROOT / "auto_outputs_future"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def _coerce_numeric_columns(df):
+    """Konwertuje object columns do numeric jesli wszystkie niepuste wartosci sa liczbami.
+    Po naszym CSV fix, kolumny ktore mialy puste stringi (przyszle mecze) sa object dtype
+    zamiast float. Trzeba je wymusic na numeric bo gbm4.py robi df['FTHG'] > df['FTAG']."""
+    for col in df.columns:
+        if df[col].dtype != "object":
+            continue
+        col_str = df[col].astype(str).str.strip()
+        non_empty_mask = col_str != ""
+        if not non_empty_mask.any():
+            continue
+        converted = pd.to_numeric(df[col], errors="coerce")
+        # jesli wszystkie niepuste wartosci sa liczbami, uzyj numeric
+        if converted[non_empty_mask].notna().all():
+            df[col] = converted
+    return df
+
+
 def _prefix_csv_columns(path):
     """Naprawia trailing comma / ragged rows w CSV przed pd.read_csv."""
     try:
@@ -613,6 +631,7 @@ def add_home_away_context_features(module, df: pd.DataFrame) -> pd.DataFrame:
 def prepare_bundle(module, n_last_seasons: int, target_mode: str, split_mode: str = "auto", use_xg: bool = True, league_name: str | None = None):
     _prefix_csv_columns(module.CSV_PATH)
     df_all = pd.read_csv(module.CSV_PATH, low_memory=False, on_bad_lines="warn")
+    df_all = _coerce_numeric_columns(df_all)
     df_all = ensure_ftr_column(df_all)
     df_all = module.parse_date(df_all)
     df_all["Season"] = module.infer_season_from_date(df_all[module.DATE_COL])
@@ -926,6 +945,7 @@ def run_league(league_info: dict, target_mode: str):
 
     _prefix_csv_columns(module.CSV_PATH)
     df_all = pd.read_csv(module.CSV_PATH, low_memory=False, on_bad_lines="warn")
+    df_all = _coerce_numeric_columns(df_all)
     df_all = ensure_ftr_column(df_all)
     df_all = module.parse_date(df_all)
     df_all["Season"] = module.infer_season_from_date(df_all[module.DATE_COL])
