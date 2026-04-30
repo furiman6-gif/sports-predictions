@@ -1,0 +1,942 @@
+Div,Date,Time,HomeTeam,AwayTeam,Round,Status
+E0,18/04/2026,13:30,Brentford,Fulham,33,notstarted
+E0,18/04/2026,16:00,Newcastle United,Bournemouth,33,notstarted
+E0,18/04/2026,16:00,Leeds United,Wolverhampton,33,notstarted
+E0,18/04/2026,18:30,Tottenham Hotspur,Brighton & Hove Albion,33,notstarted
+E0,18/04/2026,21:00,Chelsea,Manchester United,33,notstarted
+E0,19/04/2026,15:00,Everton,Liverpool,33,notstarted
+E0,19/04/2026,15:00,Aston Villa,Sunderland,33,notstarted
+E0,19/04/2026,15:00,Nottingham Forest,Burnley,33,notstarted
+E0,19/04/2026,17:30,Manchester City,Arsenal,33,notstarted
+E0,20/04/2026,21:00,Crystal Palace,West Ham United,33,notstarted
+E0,21/04/2026,21:00,Brighton & Hove Albion,Chelsea,34,notstarted
+E0,22/04/2026,21:00,Burnley,Manchester City,34,notstarted
+E0,22/04/2026,21:00,Bournemouth,Leeds United,34,notstarted
+E0,24/04/2026,21:00,Sunderland,Nottingham Forest,34,notstarted
+E0,25/04/2026,13:30,Fulham,Aston Villa,34,notstarted
+E0,25/04/2026,16:00,Liverpool,Crystal Palace,34,notstarted
+E0,25/04/2026,16:00,Wolverhampton,Tottenham Hotspur,34,notstarted
+E0,25/04/2026,16:00,West Ham United,Everton,34,notstarted
+E0,25/04/2026,18:30,Arsenal,Newcastle United,34,notstarted
+E0,27/04/2026,21:00,Manchester United,Brentford,34,notstarted
+E0,01/05/2026,21:00,Leeds United,Burnley,35,notstarted
+E0,02/05/2026,16:00,Newcastle United,Brighton & Hove Albion,35,notstarted
+E0,02/05/2026,16:00,Bournemouth,Crystal Palace,35,notstarted
+E0,02/05/2026,16:00,Brentford,West Ham United,35,notstarted
+E0,02/05/2026,16:00,Wolverhampton,Sunderland,35,notstarted
+E0,02/05/2026,18:30,Arsenal,Fulham,35,notstarted
+E0,03/05/2026,16:30,Manchester United,Liverpool,35,notstarted
+E0,03/05/2026,20:00,Aston Villa,Tottenham Hotspur,35,notstarted
+E0,04/05/2026,16:00,Chelsea,Nottingham Forest,35,notstarted
+E0,04/05/2026,21:00,Everton,Manchester City,35,notstarted
+E0,09/05/2026,13:30,Liverpool,Chelsea,36,notstarted
+E0,09/05/2026,16:00,Sunderland,Manchester United,36,notstarted
+E0,09/05/2026,16:00,Burnley,Aston Villa,36,notstarted
+E0,09/05/2026,16:00,Crystal Palace,Everton,36,notstarted
+E0,09/05/2026,16:00,Brighton & Hove Albion,Wolverhampton,36,notstarted
+E0,09/05/2026,16:00,Fulham,Bournemouth,36,notstarted
+E0,09/05/2026,18:30,Manchester City,Brentford,36,notstarted
+E0,10/05/2026,15:00,Nottingham Forest,Newcastle United,36,notstarted
+E0,10/05/2026,17:30,West Ham United,Arsenal,36,notstarted
+E0,11/05/2026,21:00,Tottenham Hotspur,Leeds United,36,notstarted
+E0,17/05/2026,16:00,Aston Villa,Liverpool,37,notstarted
+E0,17/05/2026,16:00,Chelsea,Tottenham Hotspur,37,notstarted
+E0,17/05/2026,16:00,Bournemouth,Manchester City,37,notstarted
+E0,17/05/2026,16:00,Manchester United,Nottingham Forest,37,notstarted
+E0,17/05/2026,16:00,Arsenal,Burnley,37,notstarted
+E0,17/05/2026,16:00,Newcastle United,West Ham United,37,notstarted
+E0,17/05/2026,16:00,Leeds United,Brighton & Hove Albion,37,notstarted
+E0,17/05/2026,16:00,Wolverhampton,Fulham,37,notstarted
+E0,17/05/2026,16:00,Brentford,Crystal Palace,37,notstarted
+E0,17/05/2026,16:00,Everton,Sunderland,37,notstarted
+E0,22/05/2026,16:00,Manchester City,Crystal Palace,31,notstarted
+E0,24/05/2026,17:00,Manchester City,Aston Villa,38,notstarted
+E0,24/05/2026,17:00,Brighton & Hove Albion,Manchester United,38,notstarted
+E0,24/05/2026,17:00,Liverpool,Brentford,38,notstarted
+E0,24/05/2026,17:00,Crystal Palace,Arsenal,38,notstarted
+E0,24/05/2026,17:00,Sunderland,Chelsea,38,notstarted
+E0,24/05/2026,17:00,Tottenham Hotspur,Everton,38,notstarted
+E0,24/05/2026,17:00,Fulham,Newcastle United,38,notstarted
+E0,24/05/2026,17:00,West Ham United,Leeds United,38,notstarted
+E0,24/05/2026,17:00,Nottingham Forest,Bournemouth,38,notstarted
+E0,24/05/2026,17:00,Burnley,Wolverhampton,38,notstarted
+E1,17/04/2026,21:00,Blackburn Rovers,Coventry City,43,notstarted
+E1,18/04/2026,13:30,Portsmouth,Leicester City,43,notstarted
+E1,18/04/2026,13:30,Millwall,Queens Park Rangers,43,notstarted
+E1,18/04/2026,13:30,Derby County,Oxford United,43,notstarted
+E1,18/04/2026,16:00,Swansea City,Southampton,43,notstarted
+E1,18/04/2026,16:00,Wrexham,Stoke City,43,notstarted
+E1,18/04/2026,16:00,Watford,Sheffield United,43,notstarted
+E1,18/04/2026,16:00,Hull City,Birmingham City,43,notstarted
+E1,18/04/2026,16:00,Bristol City,Norwich City,43,notstarted
+E1,18/04/2026,16:00,Preston North End,West Bromwich Albion,43,notstarted
+E1,18/04/2026,16:00,Sheffield Wednesday,Charlton Athletic,43,notstarted
+E1,19/04/2026,13:00,Ipswich Town,Middlesbrough,43,notstarted
+E1,21/04/2026,20:45,Leicester City,Hull City,44,notstarted
+E1,21/04/2026,20:45,Southampton,Bristol City,44,notstarted
+E1,21/04/2026,20:45,Oxford United,Wrexham,44,notstarted
+E1,21/04/2026,20:45,Coventry City,Portsmouth,44,notstarted
+E1,21/04/2026,20:45,Norwich City,Derby County,44,notstarted
+E1,21/04/2026,20:45,West Bromwich Albion,Watford,44,notstarted
+E1,21/04/2026,20:45,Stoke City,Millwall,44,notstarted
+E1,21/04/2026,20:45,Queens Park Rangers,Swansea City,44,notstarted
+E1,22/04/2026,20:45,Charlton Athletic,Ipswich Town,44,notstarted
+E1,22/04/2026,20:45,Sheffield United,Blackburn Rovers,44,notstarted
+E1,22/04/2026,20:45,Middlesbrough,Sheffield Wednesday,44,notstarted
+E1,22/04/2026,20:45,Birmingham City,Preston North End,44,notstarted
+E1,24/04/2026,21:00,Leicester City,Millwall,45,notstarted
+E1,25/04/2026,13:30,West Bromwich Albion,Ipswich Town,45,notstarted
+E1,25/04/2026,13:30,Middlesbrough,Watford,45,notstarted
+E1,25/04/2026,13:30,Charlton Athletic,Hull City,45,notstarted
+E1,25/04/2026,16:00,Sheffield United,Preston North End,45,notstarted
+E1,25/04/2026,16:00,Norwich City,Swansea City,45,notstarted
+E1,25/04/2026,16:00,Birmingham City,Bristol City,45,notstarted
+E1,25/04/2026,16:00,Queens Park Rangers,Derby County,45,notstarted
+E1,25/04/2026,16:00,Stoke City,Portsmouth,45,notstarted
+E1,25/04/2026,16:00,Oxford United,Sheffield Wednesday,45,notstarted
+E1,26/04/2026,13:00,Coventry City,Wrexham,45,notstarted
+E1,28/04/2026,20:45,Southampton,Ipswich Town,40,notstarted
+E1,02/05/2026,13:30,Blackburn Rovers,Leicester City,46,notstarted
+E1,02/05/2026,13:30,Wrexham,Middlesbrough,46,notstarted
+E1,02/05/2026,13:30,Preston North End,Southampton,46,notstarted
+E1,02/05/2026,13:30,Ipswich Town,Queens Park Rangers,46,notstarted
+E1,02/05/2026,13:30,Watford,Coventry City,46,notstarted
+E1,02/05/2026,13:30,Derby County,Sheffield United,46,notstarted
+E1,02/05/2026,13:30,Hull City,Norwich City,46,notstarted
+E1,02/05/2026,13:30,Portsmouth,Birmingham City,46,notstarted
+E1,02/05/2026,13:30,Bristol City,Stoke City,46,notstarted
+E1,02/05/2026,13:30,Millwall,Oxford United,46,notstarted
+E1,02/05/2026,13:30,Sheffield Wednesday,West Bromwich Albion,46,notstarted
+E1,02/05/2026,13:30,Swansea City,Charlton Athletic,46,notstarted
+E2,18/04/2026,13:30,Bolton Wanderers,Huddersfield Town,44,notstarted
+E2,18/04/2026,13:30,Barnsley,Bradford City,44,notstarted
+E2,18/04/2026,16:00,Mansfield Town,Luton Town,44,notstarted
+E2,18/04/2026,16:00,Reading,Cardiff City,44,notstarted
+E2,18/04/2026,16:00,AFC Wimbledon,Plymouth Argyle,44,notstarted
+E2,18/04/2026,16:00,Stevenage,Lincoln City,44,notstarted
+E2,18/04/2026,16:00,Wycombe Wanderers,Blackpool,44,notstarted
+E2,18/04/2026,16:00,Exeter City,Stockport County,44,notstarted
+E2,18/04/2026,16:00,Leyton Orient,Rotherham United,44,notstarted
+E2,18/04/2026,16:00,Northampton Town,Doncaster Rovers,44,notstarted
+E2,19/04/2026,14:00,Peterborough United,Burton Albion,44,notstarted
+E2,19/04/2026,16:00,Port Vale,Wigan Athletic,44,notstarted
+E2,21/04/2026,20:45,Rotherham United,Luton Town,40,notstarted
+E2,21/04/2026,20:45,Bradford City,Plymouth Argyle,40,notstarted
+E2,21/04/2026,20:45,Doncaster Rovers,Lincoln City,40,notstarted
+E2,21/04/2026,20:45,Stockport County,Mansfield Town,36,notstarted
+E2,21/04/2026,20:45,Stevenage,Barnsley,7,notstarted
+E2,22/04/2026,20:45,Cardiff City,Port Vale,41,notstarted
+E2,25/04/2026,13:30,Stockport County,Peterborough United,45,notstarted
+E2,25/04/2026,13:30,Doncaster Rovers,Stevenage,45,notstarted
+E2,25/04/2026,16:00,Luton Town,Barnsley,45,notstarted
+E2,25/04/2026,16:00,Cardiff City,Northampton Town,45,notstarted
+E2,25/04/2026,16:00,Plymouth Argyle,Port Vale,45,notstarted
+E2,25/04/2026,16:00,Lincoln City,Wycombe Wanderers,45,notstarted
+E2,25/04/2026,16:00,Bradford City,Bolton Wanderers,45,notstarted
+E2,25/04/2026,16:00,Huddersfield Town,Mansfield Town,45,notstarted
+E2,25/04/2026,16:00,Blackpool,Leyton Orient,45,notstarted
+E2,25/04/2026,16:00,Wigan Athletic,AFC Wimbledon,45,notstarted
+E2,25/04/2026,16:00,Rotherham United,Reading,45,notstarted
+E2,25/04/2026,16:00,Burton Albion,Exeter City,45,notstarted
+E2,28/04/2026,20:45,Stockport County,Port Vale,43,notstarted
+E2,28/04/2026,20:45,Peterborough United,Mansfield Town,40,notstarted
+E2,28/04/2026,20:45,Northampton Town,Barnsley,40,notstarted
+E2,02/05/2026,16:00,Bolton Wanderers,Luton Town,46,notstarted
+E2,02/05/2026,16:00,Mansfield Town,Cardiff City,46,notstarted
+E2,02/05/2026,16:00,Port Vale,Lincoln City,46,notstarted
+E2,02/05/2026,16:00,Barnsley,Stockport County,46,notstarted
+E2,02/05/2026,16:00,Northampton Town,Plymouth Argyle,46,notstarted
+E2,02/05/2026,16:00,AFC Wimbledon,Huddersfield Town,46,notstarted
+E2,02/05/2026,16:00,Reading,Blackpool,46,notstarted
+E2,02/05/2026,16:00,Exeter City,Bradford City,46,notstarted
+E2,02/05/2026,16:00,Wycombe Wanderers,Rotherham United,46,notstarted
+E2,02/05/2026,16:00,Leyton Orient,Burton Albion,46,notstarted
+E2,02/05/2026,16:00,Stevenage,Wigan Athletic,46,notstarted
+E2,02/05/2026,16:00,Peterborough United,Doncaster Rovers,46,notstarted
+E3,18/04/2026,13:30,Barrow AFC,Walsall,44,notstarted
+E3,18/04/2026,13:30,Swindon Town,Accrington Stanley,44,notstarted
+E3,18/04/2026,16:00,Notts County,Barnet,44,notstarted
+E3,18/04/2026,16:00,Gillingham,Grimsby Town,44,notstarted
+E3,18/04/2026,16:00,Oldham Athletic,Salford City,44,notstarted
+E3,18/04/2026,16:00,Crewe Alexandra,Milton Keynes Dons,44,notstarted
+E3,18/04/2026,16:00,Fleetwood Town,Chesterfield,44,notstarted
+E3,18/04/2026,16:00,Cheltenham Town,Newport County,44,notstarted
+E3,18/04/2026,16:00,Tranmere Rovers,Bristol Rovers,44,notstarted
+E3,18/04/2026,16:00,Crawley Town,Shrewsbury Town,44,notstarted
+E3,18/04/2026,16:00,Harrogate Town,Colchester United,44,notstarted
+E3,21/04/2026,20:45,Cambridge United,Grimsby Town,25,notstarted
+E3,21/04/2026,20:45,Cheltenham Town,Tranmere Rovers,40,notstarted
+E3,23/04/2026,21:00,Salford City,Bromley,45,notstarted
+E3,25/04/2026,13:30,Grimsby Town,Swindon Town,45,notstarted
+E3,25/04/2026,13:30,Milton Keynes Dons,Tranmere Rovers,45,notstarted
+E3,25/04/2026,16:00,Colchester United,Notts County,45,notstarted
+E3,25/04/2026,16:00,Cambridge United,Barrow AFC,45,notstarted
+E3,25/04/2026,16:00,Walsall,Harrogate Town,45,notstarted
+E3,25/04/2026,16:00,Barnet,Gillingham,45,notstarted
+E3,25/04/2026,16:00,Chesterfield,Crewe Alexandra,45,notstarted
+E3,25/04/2026,16:00,Bristol Rovers,Cheltenham Town,45,notstarted
+E3,25/04/2026,16:00,Newport County,Oldham Athletic,45,notstarted
+E3,25/04/2026,16:00,Accrington Stanley,Crawley Town,45,notstarted
+E3,25/04/2026,16:00,Shrewsbury Town,Fleetwood Town,45,notstarted
+E3,02/05/2026,16:00,Bromley,Walsall,46,notstarted
+E3,02/05/2026,16:00,Notts County,Bristol Rovers,46,notstarted
+E3,02/05/2026,16:00,Crawley Town,Salford City,46,notstarted
+E3,02/05/2026,16:00,Tranmere Rovers,Grimsby Town,46,notstarted
+E3,02/05/2026,16:00,Fleetwood Town,Milton Keynes Dons,46,notstarted
+E3,02/05/2026,16:00,Swindon Town,Chesterfield,46,notstarted
+E3,02/05/2026,16:00,Crewe Alexandra,Cambridge United,46,notstarted
+E3,02/05/2026,16:00,Harrogate Town,Barnet,46,notstarted
+E3,02/05/2026,16:00,Barrow AFC,Newport County,46,notstarted
+E3,02/05/2026,16:00,Oldham Athletic,Accrington Stanley,46,notstarted
+E3,02/05/2026,16:00,Cheltenham Town,Colchester United,46,notstarted
+E3,02/05/2026,16:00,Gillingham,Shrewsbury Town,46,notstarted
+EC,18/04/2026,13:30,FC Halifax Town,Southend United,45,notstarted
+EC,18/04/2026,16:00,Hartlepool United,Forest Green Rovers,45,notstarted
+EC,18/04/2026,16:00,Morecambe,Boreham Wood,45,notstarted
+EC,18/04/2026,16:00,Truro City,Carlisle United,45,notstarted
+EC,18/04/2026,16:00,Gateshead,Woking,45,notstarted
+EC,18/04/2026,16:00,Solihull Moors,Boston United,45,notstarted
+EC,18/04/2026,16:00,Wealdstone,Scunthorpe United,45,notstarted
+EC,18/04/2026,16:00,Eastleigh,Tamworth,45,notstarted
+EC,18/04/2026,16:00,Sutton United,Altrincham FC,45,notstarted
+EC,18/04/2026,16:00,Brackley Town,Aldershot Town,45,notstarted
+EC,18/04/2026,18:30,York City,Yeovil Town,45,notstarted
+EC,18/04/2026,18:30,Braintree Town,Rochdale,45,notstarted
+EC,21/04/2026,20:45,Hartlepool United,Southend United,41,notstarted
+EC,25/04/2026,13:30,Rochdale,York City,46,notstarted
+EC,25/04/2026,13:30,Forest Green Rovers,Morecambe,46,notstarted
+EC,25/04/2026,13:30,Boreham Wood,Sutton United,46,notstarted
+EC,25/04/2026,13:30,Carlisle United,Brackley Town,46,notstarted
+EC,25/04/2026,13:30,Southend United,Wealdstone,46,notstarted
+EC,25/04/2026,13:30,Woking,FC Halifax Town,46,notstarted
+EC,25/04/2026,13:30,Scunthorpe United,Eastleigh,46,notstarted
+EC,25/04/2026,13:30,Altrincham FC,Gateshead,46,notstarted
+EC,25/04/2026,13:30,Aldershot Town,Truro City,46,notstarted
+EC,25/04/2026,13:30,Yeovil Town,Solihull Moors,46,notstarted
+EC,25/04/2026,13:30,Boston United,Hartlepool United,46,notstarted
+EC,25/04/2026,13:30,Tamworth,Braintree Town,46,notstarted
+D1,17/04/2026,20:30,FC St. Pauli,1. FC Köln,30,notstarted
+D1,18/04/2026,15:30,TSG Hoffenheim,Borussia Dortmund,30,notstarted
+D1,18/04/2026,15:30,Bayer 04 Leverkusen,FC Augsburg,30,notstarted
+D1,18/04/2026,15:30,1. FC Union Berlin,VfL Wolfsburg,30,notstarted
+D1,18/04/2026,15:30,SV Werder Bremen,Hamburger SV,30,notstarted
+D1,18/04/2026,18:30,Eintracht Frankfurt,RB Leipzig,30,notstarted
+D1,19/04/2026,15:30,SC Freiburg,1. FC Heidenheim,30,notstarted
+D1,19/04/2026,17:30,FC Bayern München,VfB Stuttgart,30,notstarted
+D1,19/04/2026,19:30,Borussia M'gladbach,1. FSV Mainz 05,30,notstarted
+D1,24/04/2026,20:30,RB Leipzig,1. FC Union Berlin,31,notstarted
+D1,25/04/2026,15:30,1. FSV Mainz 05,FC Bayern München,31,notstarted
+D1,25/04/2026,15:30,1. FC Köln,Bayer 04 Leverkusen,31,notstarted
+D1,25/04/2026,15:30,FC Augsburg,Eintracht Frankfurt,31,notstarted
+D1,25/04/2026,15:30,VfL Wolfsburg,Borussia M'gladbach,31,notstarted
+D1,25/04/2026,15:30,1. FC Heidenheim,FC St. Pauli,31,notstarted
+D1,25/04/2026,18:30,Hamburger SV,TSG Hoffenheim,31,notstarted
+D1,26/04/2026,15:30,VfB Stuttgart,SV Werder Bremen,31,notstarted
+D1,26/04/2026,17:30,Borussia Dortmund,SC Freiburg,31,notstarted
+D1,02/05/2026,15:30,FC Bayern München,1. FC Heidenheim,32,notstarted
+D1,02/05/2026,15:30,Eintracht Frankfurt,Hamburger SV,32,notstarted
+D1,02/05/2026,15:30,TSG Hoffenheim,VfB Stuttgart,32,notstarted
+D1,02/05/2026,15:30,1. FC Union Berlin,1. FC Köln,32,notstarted
+D1,02/05/2026,15:30,SV Werder Bremen,FC Augsburg,32,notstarted
+D1,02/05/2026,18:30,Bayer 04 Leverkusen,RB Leipzig,32,notstarted
+D1,03/05/2026,15:30,FC St. Pauli,1. FSV Mainz 05,32,notstarted
+D1,03/05/2026,17:30,Borussia M'gladbach,Borussia Dortmund,32,notstarted
+D1,03/05/2026,19:30,SC Freiburg,VfL Wolfsburg,32,notstarted
+D1,08/05/2026,20:30,Borussia Dortmund,Eintracht Frankfurt,33,notstarted
+D1,09/05/2026,15:30,VfB Stuttgart,Bayer 04 Leverkusen,33,notstarted
+D1,09/05/2026,15:30,RB Leipzig,FC St. Pauli,33,notstarted
+D1,09/05/2026,15:30,TSG Hoffenheim,SV Werder Bremen,33,notstarted
+D1,09/05/2026,15:30,FC Augsburg,Borussia M'gladbach,33,notstarted
+D1,09/05/2026,18:30,VfL Wolfsburg,FC Bayern München,33,notstarted
+D1,10/05/2026,15:30,Hamburger SV,SC Freiburg,33,notstarted
+D1,10/05/2026,17:30,1. FC Köln,1. FC Heidenheim,33,notstarted
+D1,10/05/2026,19:30,1. FSV Mainz 05,1. FC Union Berlin,33,notstarted
+D1,16/05/2026,15:30,FC Bayern München,1. FC Köln,34,notstarted
+D1,16/05/2026,15:30,SV Werder Bremen,Borussia Dortmund,34,notstarted
+D1,16/05/2026,15:30,Bayer 04 Leverkusen,Hamburger SV,34,notstarted
+D1,16/05/2026,15:30,SC Freiburg,RB Leipzig,34,notstarted
+D1,16/05/2026,15:30,Eintracht Frankfurt,VfB Stuttgart,34,notstarted
+D1,16/05/2026,15:30,Borussia M'gladbach,TSG Hoffenheim,34,notstarted
+D1,16/05/2026,15:30,1. FC Union Berlin,FC Augsburg,34,notstarted
+D1,16/05/2026,15:30,FC St. Pauli,VfL Wolfsburg,34,notstarted
+D1,16/05/2026,15:30,1. FC Heidenheim,1. FSV Mainz 05,34,notstarted
+D2,17/04/2026,18:30,Holstein Kiel,1. FC Kaiserslautern,30,notstarted
+D2,17/04/2026,18:30,SV 07 Elversberg,Karlsruher SC,30,notstarted
+D2,18/04/2026,13:00,SG Dynamo Dresden,VfL Bochum 1848,30,notstarted
+D2,18/04/2026,13:00,1. FC Magdeburg,Fortuna Düsseldorf,30,notstarted
+D2,18/04/2026,13:00,Arminia Bielefeld,1. FC Nürnberg,30,notstarted
+D2,18/04/2026,20:30,Hannover 96,SC Paderborn 07,30,notstarted
+D2,19/04/2026,13:30,FC Schalke 04,Preußen Münster,30,notstarted
+D2,19/04/2026,13:30,Eintracht Braunschweig,Hertha BSC,30,notstarted
+D2,19/04/2026,13:30,SpVgg Greuther Fürth,Darmstadt 98,30,notstarted
+D2,24/04/2026,18:30,Fortuna Düsseldorf,SG Dynamo Dresden,31,notstarted
+D2,24/04/2026,18:30,1. FC Kaiserslautern,Eintracht Braunschweig,31,notstarted
+D2,25/04/2026,13:00,Hertha BSC,Holstein Kiel,31,notstarted
+D2,25/04/2026,13:00,Karlsruher SC,Hannover 96,31,notstarted
+D2,25/04/2026,13:00,Preußen Münster,Arminia Bielefeld,31,notstarted
+D2,25/04/2026,20:30,Darmstadt 98,SV 07 Elversberg,31,notstarted
+D2,26/04/2026,13:30,SC Paderborn 07,FC Schalke 04,31,notstarted
+D2,26/04/2026,13:30,VfL Bochum 1848,SpVgg Greuther Fürth,31,notstarted
+D2,26/04/2026,13:30,1. FC Nürnberg,1. FC Magdeburg,31,notstarted
+D2,02/05/2026,13:00,Arminia Bielefeld,VfL Bochum 1848,32,notstarted
+D2,02/05/2026,13:00,Holstein Kiel,Eintracht Braunschweig,32,notstarted
+D2,02/05/2026,13:00,SG Dynamo Dresden,1. FC Kaiserslautern,32,notstarted
+D2,02/05/2026,20:30,FC Schalke 04,Fortuna Düsseldorf,32,notstarted
+D2,03/05/2026,13:30,1. FC Magdeburg,Hertha BSC,32,notstarted
+D2,03/05/2026,13:30,Karlsruher SC,Darmstadt 98,32,notstarted
+D2,03/05/2026,13:30,SV 07 Elversberg,SC Paderborn 07,32,notstarted
+D2,03/05/2026,13:30,Hannover 96,Preußen Münster,32,notstarted
+D2,03/05/2026,13:30,SpVgg Greuther Fürth,1. FC Nürnberg,32,notstarted
+D2,08/05/2026,18:30,SC Paderborn 07,Karlsruher SC,33,notstarted
+D2,08/05/2026,18:30,1. FC Kaiserslautern,Arminia Bielefeld,33,notstarted
+D2,09/05/2026,13:00,VfL Bochum 1848,Hannover 96,33,notstarted
+D2,09/05/2026,13:00,Holstein Kiel,1. FC Magdeburg,33,notstarted
+D2,09/05/2026,13:00,Eintracht Braunschweig,SG Dynamo Dresden,33,notstarted
+D2,09/05/2026,20:30,1. FC Nürnberg,FC Schalke 04,33,notstarted
+D2,10/05/2026,13:30,Hertha BSC,SpVgg Greuther Fürth,33,notstarted
+D2,10/05/2026,13:30,Fortuna Düsseldorf,SV 07 Elversberg,33,notstarted
+D2,10/05/2026,13:30,Preußen Münster,Darmstadt 98,33,notstarted
+D2,17/05/2026,15:30,Karlsruher SC,VfL Bochum 1848,34,notstarted
+D2,17/05/2026,15:30,FC Schalke 04,Eintracht Braunschweig,34,notstarted
+D2,17/05/2026,15:30,Darmstadt 98,SC Paderborn 07,34,notstarted
+D2,17/05/2026,15:30,Arminia Bielefeld,Hertha BSC,34,notstarted
+D2,17/05/2026,15:30,SG Dynamo Dresden,Holstein Kiel,34,notstarted
+D2,17/05/2026,15:30,SpVgg Greuther Fürth,Fortuna Düsseldorf,34,notstarted
+D2,17/05/2026,15:30,Hannover 96,1. FC Nürnberg,34,notstarted
+D2,17/05/2026,15:30,1. FC Magdeburg,1. FC Kaiserslautern,34,notstarted
+D2,17/05/2026,15:30,SV 07 Elversberg,Preußen Münster,34,notstarted
+SP1,21/04/2026,19:00,Athletic Club,Osasuna,33,notstarted
+SP1,21/04/2026,19:00,Mallorca,Valencia,33,notstarted
+SP1,21/04/2026,21:30,Real Madrid,Deportivo Alavés,33,notstarted
+SP1,21/04/2026,21:30,Girona FC,Real Betis,33,notstarted
+SP1,22/04/2026,19:00,Elche,Atlético Madrid,33,notstarted
+SP1,22/04/2026,20:00,Real Sociedad,Getafe,33,notstarted
+SP1,22/04/2026,21:30,FC Barcelona,Celta Vigo,33,notstarted
+SP1,23/04/2026,19:00,Levante UD,Sevilla,33,notstarted
+SP1,23/04/2026,20:00,Rayo Vallecano,Espanyol,33,notstarted
+SP1,23/04/2026,21:30,Real Oviedo,Villarreal,33,notstarted
+SP1,24/04/2026,21:00,Real Betis,Real Madrid,32,notstarted
+SP1,25/04/2026,14:00,Deportivo Alavés,Mallorca,32,notstarted
+SP1,25/04/2026,16:15,Getafe,FC Barcelona,32,notstarted
+SP1,25/04/2026,18:30,Valencia,Girona FC,32,notstarted
+SP1,25/04/2026,21:00,Atlético Madrid,Athletic Club,32,notstarted
+SP1,26/04/2026,14:00,Rayo Vallecano,Real Sociedad,32,notstarted
+SP1,26/04/2026,16:15,Real Oviedo,Elche,32,notstarted
+SP1,26/04/2026,18:30,Osasuna,Sevilla,32,notstarted
+SP1,26/04/2026,21:00,Villarreal,Celta Vigo,32,notstarted
+SP1,27/04/2026,21:00,Espanyol,Levante UD,32,notstarted
+SP1,01/05/2026,21:00,Girona FC,Mallorca,34,notstarted
+SP1,02/05/2026,14:00,Villarreal,Levante UD,34,notstarted
+SP1,02/05/2026,16:15,Valencia,Atlético Madrid,34,notstarted
+SP1,02/05/2026,18:30,Deportivo Alavés,Athletic Club,34,notstarted
+SP1,02/05/2026,21:00,Osasuna,FC Barcelona,34,notstarted
+SP1,03/05/2026,14:00,Celta Vigo,Elche,34,notstarted
+SP1,03/05/2026,16:15,Getafe,Rayo Vallecano,34,notstarted
+SP1,03/05/2026,18:30,Real Betis,Real Oviedo,34,notstarted
+SP1,03/05/2026,21:00,Espanyol,Real Madrid,34,notstarted
+SP1,04/05/2026,21:00,Sevilla,Real Sociedad,34,notstarted
+SP1,10/05/2026,21:00,FC Barcelona,Real Madrid,35,notstarted
+SP1,10/05/2026,21:00,Atlético Madrid,Celta Vigo,35,notstarted
+SP1,10/05/2026,21:00,Real Sociedad,Real Betis,35,notstarted
+SP1,10/05/2026,21:00,Athletic Club,Valencia,35,notstarted
+SP1,10/05/2026,21:00,Mallorca,Villarreal,35,notstarted
+SP1,10/05/2026,21:00,Rayo Vallecano,Girona FC,35,notstarted
+SP1,10/05/2026,21:00,Sevilla,Espanyol,35,notstarted
+SP1,10/05/2026,21:00,Levante UD,Osasuna,35,notstarted
+SP1,10/05/2026,21:00,Real Oviedo,Getafe,35,notstarted
+SP1,10/05/2026,21:00,Elche,Deportivo Alavés,35,notstarted
+SP1,13/05/2026,21:00,Real Madrid,Real Oviedo,36,notstarted
+SP1,13/05/2026,21:00,Deportivo Alavés,FC Barcelona,36,notstarted
+SP1,13/05/2026,21:00,Osasuna,Atlético Madrid,36,notstarted
+SP1,13/05/2026,21:00,Real Betis,Elche,36,notstarted
+SP1,13/05/2026,21:00,Villarreal,Sevilla,36,notstarted
+SP1,13/05/2026,21:00,Espanyol,Athletic Club,36,notstarted
+SP1,13/05/2026,21:00,Girona FC,Real Sociedad,36,notstarted
+SP1,13/05/2026,21:00,Valencia,Rayo Vallecano,36,notstarted
+SP1,13/05/2026,21:00,Celta Vigo,Levante UD,36,notstarted
+SP1,13/05/2026,21:00,Getafe,Mallorca,36,notstarted
+SP1,17/05/2026,21:00,Sevilla,Real Madrid,37,notstarted
+SP1,17/05/2026,21:00,FC Barcelona,Real Betis,37,notstarted
+SP1,17/05/2026,21:00,Atlético Madrid,Girona FC,37,notstarted
+SP1,17/05/2026,21:00,Real Sociedad,Valencia,37,notstarted
+SP1,17/05/2026,21:00,Athletic Club,Celta Vigo,37,notstarted
+SP1,17/05/2026,21:00,Rayo Vallecano,Villarreal,37,notstarted
+SP1,17/05/2026,21:00,Osasuna,Espanyol,37,notstarted
+SP1,17/05/2026,21:00,Levante UD,Mallorca,37,notstarted
+SP1,17/05/2026,21:00,Elche,Getafe,37,notstarted
+SP1,17/05/2026,21:00,Real Oviedo,Deportivo Alavés,37,notstarted
+SP1,24/05/2026,21:00,Real Madrid,Athletic Club,38,notstarted
+SP1,24/05/2026,21:00,Valencia,FC Barcelona,38,notstarted
+SP1,24/05/2026,21:00,Villarreal,Atlético Madrid,38,notstarted
+SP1,24/05/2026,21:00,Celta Vigo,Sevilla,38,notstarted
+SP1,24/05/2026,21:00,Espanyol,Real Sociedad,38,notstarted
+SP1,24/05/2026,21:00,Real Betis,Levante UD,38,notstarted
+SP1,24/05/2026,21:00,Girona FC,Elche,38,notstarted
+SP1,24/05/2026,21:00,Getafe,Osasuna,38,notstarted
+SP1,24/05/2026,21:00,Deportivo Alavés,Rayo Vallecano,38,notstarted
+SP1,24/05/2026,21:00,Mallorca,Real Oviedo,38,notstarted
+SP2,17/04/2026,20:30,Real Sociedad B U21,Real Racing Club,36,notstarted
+SP2,17/04/2026,21:00,Las Palmas,Leganés,36,notstarted
+SP2,18/04/2026,16:15,Real Zaragoza,AD Ceuta,36,notstarted
+SP2,18/04/2026,18:30,CD Castellón,Burgos Club de Fútbol,36,notstarted
+SP2,18/04/2026,18:30,Cultural Leonesa,Córdoba,36,notstarted
+SP2,19/04/2026,14:00,FC Andorra,Real Valladolid,36,notstarted
+SP2,19/04/2026,16:15,Sporting Gijón,Cádiz,36,notstarted
+SP2,19/04/2026,18:30,Albacete Balompié,Granada,36,notstarted
+SP2,19/04/2026,18:30,Eibar,Huesca,36,notstarted
+SP2,19/04/2026,21:00,Almería,Málaga CF,36,notstarted
+SP2,20/04/2026,20:30,Deportivo La Coruña,Mirandés,36,notstarted
+SP2,24/04/2026,20:30,Albacete Balompié,Eibar,37,notstarted
+SP2,25/04/2026,16:15,Real Valladolid,Real Sociedad B U21,37,notstarted
+SP2,25/04/2026,18:30,Burgos Club de Fútbol,Deportivo La Coruña,37,notstarted
+SP2,25/04/2026,21:00,Málaga CF,CD Castellón,37,notstarted
+SP2,26/04/2026,14:00,Córdoba,Sporting Gijón,37,notstarted
+SP2,26/04/2026,16:15,Granada,Almería,37,notstarted
+SP2,26/04/2026,16:15,Mirandés,Cultural Leonesa,37,notstarted
+SP2,26/04/2026,18:30,Leganés,FC Andorra,37,notstarted
+SP2,26/04/2026,18:30,Huesca,Real Zaragoza,37,notstarted
+SP2,26/04/2026,21:00,AD Ceuta,Real Racing Club,37,notstarted
+SP2,27/04/2026,20:30,Cádiz,Las Palmas,37,notstarted
+SP2,01/05/2026,16:15,FC Andorra,Albacete Balompié,38,notstarted
+SP2,01/05/2026,18:30,Deportivo La Coruña,Leganés,38,notstarted
+SP2,01/05/2026,21:00,Real Zaragoza,Granada,38,notstarted
+SP2,02/05/2026,16:15,Cultural Leonesa,Cádiz,38,notstarted
+SP2,02/05/2026,18:30,CD Castellón,Córdoba,38,notstarted
+SP2,02/05/2026,21:00,Eibar,Málaga CF,38,notstarted
+SP2,03/05/2026,14:00,Real Racing Club,Huesca,38,notstarted
+SP2,03/05/2026,16:15,Sporting Gijón,AD Ceuta,38,notstarted
+SP2,03/05/2026,18:30,Real Sociedad B U21,Burgos Club de Fútbol,38,notstarted
+SP2,03/05/2026,21:00,Las Palmas,Real Valladolid,38,notstarted
+SP2,04/05/2026,20:30,Almería,Mirandés,38,notstarted
+SP2,10/05/2026,21:00,Leganés,Real Racing Club,39,notstarted
+SP2,10/05/2026,21:00,FC Andorra,Las Palmas,39,notstarted
+SP2,10/05/2026,21:00,Real Valladolid,Real Zaragoza,39,notstarted
+SP2,10/05/2026,21:00,Burgos Club de Fútbol,Almería,39,notstarted
+SP2,10/05/2026,21:00,Cádiz,Deportivo La Coruña,39,notstarted
+SP2,10/05/2026,21:00,Córdoba,Granada,39,notstarted
+SP2,10/05/2026,21:00,Málaga CF,Sporting Gijón,39,notstarted
+SP2,10/05/2026,21:00,Mirandés,Eibar,39,notstarted
+SP2,10/05/2026,21:00,Albacete Balompié,Cultural Leonesa,39,notstarted
+SP2,10/05/2026,21:00,AD Ceuta,CD Castellón,39,notstarted
+SP2,10/05/2026,21:00,Huesca,Real Sociedad B U21,39,notstarted
+SP2,17/05/2026,21:00,Almería,Las Palmas,40,notstarted
+SP2,17/05/2026,21:00,Real Racing Club,Real Valladolid,40,notstarted
+SP2,17/05/2026,21:00,Leganés,Huesca,40,notstarted
+SP2,17/05/2026,21:00,Granada,Burgos Club de Fútbol,40,notstarted
+SP2,17/05/2026,21:00,CD Castellón,Cádiz,40,notstarted
+SP2,17/05/2026,21:00,Real Zaragoza,Sporting Gijón,40,notstarted
+SP2,17/05/2026,21:00,Cultural Leonesa,Eibar,40,notstarted
+SP2,17/05/2026,21:00,Deportivo La Coruña,FC Andorra,40,notstarted
+SP2,17/05/2026,21:00,AD Ceuta,Málaga CF,40,notstarted
+SP2,17/05/2026,21:00,Córdoba,Albacete Balompié,40,notstarted
+SP2,17/05/2026,21:00,Real Sociedad B U21,Mirandés,40,notstarted
+SP2,24/05/2026,21:00,Cádiz,Leganés,41,notstarted
+SP2,24/05/2026,21:00,Las Palmas,Real Zaragoza,41,notstarted
+SP2,24/05/2026,21:00,Real Valladolid,Deportivo La Coruña,41,notstarted
+SP2,24/05/2026,21:00,Sporting Gijón,Almería,41,notstarted
+SP2,24/05/2026,21:00,Mirandés,Granada,41,notstarted
+SP2,24/05/2026,21:00,Eibar,Córdoba,41,notstarted
+SP2,24/05/2026,21:00,Málaga CF,Real Racing Club,41,notstarted
+SP2,24/05/2026,21:00,Huesca,CD Castellón,41,notstarted
+SP2,24/05/2026,21:00,Cultural Leonesa,Burgos Club de Fútbol,41,notstarted
+SP2,24/05/2026,21:00,Albacete Balompié,Real Sociedad B U21,41,notstarted
+SP2,24/05/2026,21:00,FC Andorra,AD Ceuta,41,notstarted
+SP2,31/05/2026,21:00,Almería,Real Valladolid,42,notstarted
+SP2,31/05/2026,21:00,Deportivo La Coruña,Las Palmas,42,notstarted
+SP2,31/05/2026,21:00,Leganés,Mirandés,42,notstarted
+SP2,31/05/2026,21:00,Real Racing Club,Cádiz,42,notstarted
+SP2,31/05/2026,21:00,Granada,Sporting Gijón,42,notstarted
+SP2,31/05/2026,21:00,Real Zaragoza,Málaga CF,42,notstarted
+SP2,31/05/2026,21:00,CD Castellón,Eibar,42,notstarted
+SP2,31/05/2026,21:00,Córdoba,Huesca,42,notstarted
+SP2,31/05/2026,21:00,Burgos Club de Fútbol,FC Andorra,42,notstarted
+SP2,31/05/2026,21:00,AD Ceuta,Albacete Balompié,42,notstarted
+SP2,31/05/2026,21:00,Real Sociedad B U21,Cultural Leonesa,42,notstarted
+I1,17/04/2026,18:30,Sassuolo,Como,33,notstarted
+I1,17/04/2026,20:45,Inter,Cagliari,33,notstarted
+I1,18/04/2026,15:00,Udinese,Parma,33,notstarted
+I1,18/04/2026,18:00,Napoli,Lazio,33,notstarted
+I1,18/04/2026,20:45,Roma,Atalanta,33,notstarted
+I1,19/04/2026,12:30,Cremonese,Torino,33,notstarted
+I1,19/04/2026,15:00,Hellas Verona,Milan,33,notstarted
+I1,19/04/2026,18:00,Pisa,Genoa,33,notstarted
+I1,19/04/2026,20:45,Juventus,Bologna,33,notstarted
+I1,20/04/2026,20:45,Lecce,Fiorentina,33,notstarted
+I1,24/04/2026,20:45,Napoli,Cremonese,34,notstarted
+I1,25/04/2026,15:00,Parma,Pisa,34,notstarted
+I1,25/04/2026,18:00,Bologna,Roma,34,notstarted
+I1,25/04/2026,20:45,Hellas Verona,Lecce,34,notstarted
+I1,26/04/2026,12:30,Fiorentina,Sassuolo,34,notstarted
+I1,26/04/2026,15:00,Genoa,Como,34,notstarted
+I1,26/04/2026,18:00,Torino,Inter,34,notstarted
+I1,26/04/2026,20:45,Milan,Juventus,34,notstarted
+I1,27/04/2026,18:30,Cagliari,Atalanta,34,notstarted
+I1,27/04/2026,20:45,Lazio,Udinese,34,notstarted
+I1,03/05/2026,15:00,Inter,Parma,35,notstarted
+I1,03/05/2026,15:00,Sassuolo,Milan,35,notstarted
+I1,03/05/2026,15:00,Juventus,Hellas Verona,35,notstarted
+I1,03/05/2026,15:00,Como,Napoli,35,notstarted
+I1,03/05/2026,15:00,Roma,Fiorentina,35,notstarted
+I1,03/05/2026,15:00,Atalanta,Genoa,35,notstarted
+I1,03/05/2026,15:00,Cremonese,Lazio,35,notstarted
+I1,03/05/2026,15:00,Bologna,Cagliari,35,notstarted
+I1,03/05/2026,15:00,Udinese,Torino,35,notstarted
+I1,03/05/2026,15:00,Pisa,Lecce,35,notstarted
+I1,10/05/2026,15:00,Lazio,Inter,36,notstarted
+I1,10/05/2026,15:00,Milan,Atalanta,36,notstarted
+I1,10/05/2026,15:00,Lecce,Juventus,36,notstarted
+I1,10/05/2026,15:00,Napoli,Bologna,36,notstarted
+I1,10/05/2026,15:00,Parma,Roma,36,notstarted
+I1,10/05/2026,15:00,Fiorentina,Genoa,36,notstarted
+I1,10/05/2026,15:00,Hellas Verona,Como,36,notstarted
+I1,10/05/2026,15:00,Torino,Sassuolo,36,notstarted
+I1,10/05/2026,15:00,Cagliari,Udinese,36,notstarted
+I1,10/05/2026,15:00,Cremonese,Pisa,36,notstarted
+I1,17/05/2026,15:00,Juventus,Fiorentina,37,notstarted
+I1,17/05/2026,15:00,Inter,Hellas Verona,37,notstarted
+I1,17/05/2026,15:00,Genoa,Milan,37,notstarted
+I1,17/05/2026,15:00,Roma,Lazio,37,notstarted
+I1,17/05/2026,15:00,Atalanta,Bologna,37,notstarted
+I1,17/05/2026,15:00,Pisa,Napoli,37,notstarted
+I1,17/05/2026,15:00,Cagliari,Torino,37,notstarted
+I1,17/05/2026,15:00,Sassuolo,Lecce,37,notstarted
+I1,17/05/2026,15:00,Como,Parma,37,notstarted
+I1,17/05/2026,15:00,Udinese,Cremonese,37,notstarted
+I1,24/05/2026,15:00,Bologna,Inter,38,notstarted
+I1,24/05/2026,15:00,Milan,Cagliari,38,notstarted
+I1,24/05/2026,15:00,Torino,Juventus,38,notstarted
+I1,24/05/2026,15:00,Fiorentina,Atalanta,38,notstarted
+I1,24/05/2026,15:00,Napoli,Udinese,38,notstarted
+I1,24/05/2026,15:00,Hellas Verona,Roma,38,notstarted
+I1,24/05/2026,15:00,Lazio,Pisa,38,notstarted
+I1,24/05/2026,15:00,Lecce,Genoa,38,notstarted
+I1,24/05/2026,15:00,Parma,Sassuolo,38,notstarted
+I1,24/05/2026,15:00,Cremonese,Como,38,notstarted
+I2,17/04/2026,20:30,Sampdoria,Monza,35,notstarted
+I2,18/04/2026,15:00,Bari,Venezia,35,notstarted
+I2,18/04/2026,15:00,Modena,Frosinone,35,notstarted
+I2,18/04/2026,15:00,Spezia,Südtirol,35,notstarted
+I2,18/04/2026,15:00,Mantova,US Avellino 1912,35,notstarted
+I2,18/04/2026,17:15,Palermo,Cesena,35,notstarted
+I2,18/04/2026,19:30,Juve Stabia,Catanzaro,35,notstarted
+I2,19/04/2026,15:00,Carrarese,Pescara,35,notstarted
+I2,19/04/2026,17:15,Padova,Reggiana,35,notstarted
+I2,19/04/2026,19:30,Empoli,Virtus Entella,35,notstarted
+I2,24/04/2026,19:00,Monza,Modena,36,notstarted
+I2,24/04/2026,21:00,US Avellino 1912,Bari,36,notstarted
+I2,25/04/2026,12:30,Catanzaro,Spezia,36,notstarted
+I2,25/04/2026,15:00,Reggiana,Palermo,36,notstarted
+I2,25/04/2026,15:00,Frosinone,Carrarese,36,notstarted
+I2,25/04/2026,15:00,Pescara,Juve Stabia,36,notstarted
+I2,25/04/2026,15:00,Virtus Entella,Padova,36,notstarted
+I2,25/04/2026,15:00,Südtirol,Mantova,36,notstarted
+I2,25/04/2026,17:15,Venezia,Empoli,36,notstarted
+I2,25/04/2026,19:30,Cesena,Sampdoria,36,notstarted
+I2,01/05/2026,15:00,Spezia,Venezia,37,notstarted
+I2,01/05/2026,15:00,Empoli,US Avellino 1912,37,notstarted
+I2,01/05/2026,15:00,Mantova,Monza,37,notstarted
+I2,01/05/2026,15:00,Palermo,Catanzaro,37,notstarted
+I2,01/05/2026,15:00,Juve Stabia,Frosinone,37,notstarted
+I2,01/05/2026,15:00,Sampdoria,Südtirol,37,notstarted
+I2,01/05/2026,15:00,Bari,Virtus Entella,37,notstarted
+I2,01/05/2026,15:00,Padova,Pescara,37,notstarted
+I2,01/05/2026,15:00,Modena,Reggiana,37,notstarted
+I2,01/05/2026,15:00,Carrarese,Cesena,37,notstarted
+I2,08/05/2026,20:30,Monza,Empoli,38,notstarted
+I2,08/05/2026,20:30,Venezia,Palermo,38,notstarted
+I2,08/05/2026,20:30,Frosinone,Mantova,38,notstarted
+I2,08/05/2026,20:30,Reggiana,Sampdoria,38,notstarted
+I2,08/05/2026,20:30,Pescara,Spezia,38,notstarted
+I2,08/05/2026,20:30,Catanzaro,Bari,38,notstarted
+I2,08/05/2026,20:30,US Avellino 1912,Modena,38,notstarted
+I2,08/05/2026,20:30,Cesena,Padova,38,notstarted
+I2,08/05/2026,20:30,Südtirol,Juve Stabia,38,notstarted
+I2,08/05/2026,20:30,Virtus Entella,Carrarese,38,notstarted
+F1,17/04/2026,20:45,RC Lens,Toulouse,30,notstarted
+F1,18/04/2026,17:00,Lorient,Olympique de Marseille,30,notstarted
+F1,18/04/2026,19:00,Angers,Le Havre,30,notstarted
+F1,18/04/2026,21:05,Lille,Nice,30,notstarted
+F1,19/04/2026,15:00,AS Monaco,Auxerre,30,notstarted
+F1,19/04/2026,17:15,RC Strasbourg,Stade Rennais,30,notstarted
+F1,19/04/2026,17:15,Nantes,Stade Brestois,30,notstarted
+F1,19/04/2026,17:15,Metz,Paris FC,30,notstarted
+F1,19/04/2026,20:45,Paris Saint-Germain,Olympique Lyonnais,30,notstarted
+F1,22/04/2026,19:00,Paris Saint-Germain,Nantes,26,notstarted
+F1,24/04/2026,20:45,Stade Brestois,RC Lens,31,notstarted
+F1,25/04/2026,17:00,Olympique Lyonnais,Auxerre,31,notstarted
+F1,25/04/2026,19:00,Angers,Paris Saint-Germain,31,notstarted
+F1,25/04/2026,21:05,Toulouse,AS Monaco,31,notstarted
+F1,26/04/2026,15:00,Lorient,RC Strasbourg,31,notstarted
+F1,26/04/2026,17:15,Paris FC,Lille,31,notstarted
+F1,26/04/2026,17:15,Stade Rennais,Nantes,31,notstarted
+F1,26/04/2026,17:15,Le Havre,Metz,31,notstarted
+F1,26/04/2026,20:45,Olympique de Marseille,Nice,31,notstarted
+F1,01/05/2026,20:45,Nantes,Olympique de Marseille,32,notstarted
+F1,02/05/2026,17:00,Paris Saint-Germain,Lorient,32,notstarted
+F1,02/05/2026,19:00,Metz,AS Monaco,32,notstarted
+F1,02/05/2026,21:05,Nice,RC Lens,32,notstarted
+F1,03/05/2026,15:00,Lille,Le Havre,32,notstarted
+F1,03/05/2026,17:15,RC Strasbourg,Toulouse,32,notstarted
+F1,03/05/2026,17:15,Paris FC,Stade Brestois,32,notstarted
+F1,03/05/2026,17:15,Auxerre,Angers,32,notstarted
+F1,03/05/2026,20:45,Olympique Lyonnais,Stade Rennais,32,notstarted
+F1,09/05/2026,21:00,Paris Saint-Germain,Stade Brestois,33,notstarted
+F1,09/05/2026,21:00,Le Havre,Olympique de Marseille,33,notstarted
+F1,09/05/2026,21:00,AS Monaco,Lille,33,notstarted
+F1,09/05/2026,21:00,Toulouse,Olympique Lyonnais,33,notstarted
+F1,09/05/2026,21:00,RC Lens,Nantes,33,notstarted
+F1,09/05/2026,21:00,Angers,RC Strasbourg,33,notstarted
+F1,09/05/2026,21:00,Auxerre,Nice,33,notstarted
+F1,09/05/2026,21:00,Stade Rennais,Paris FC,33,notstarted
+F1,09/05/2026,21:00,Metz,Lorient,33,notstarted
+F1,13/05/2026,20:00,RC Lens,Paris Saint-Germain,29,notstarted
+F1,13/05/2026,20:00,Stade Brestois,RC Strasbourg,29,notstarted
+F1,16/05/2026,21:00,Paris FC,Paris Saint-Germain,34,notstarted
+F1,16/05/2026,21:00,Olympique de Marseille,Stade Rennais,34,notstarted
+F1,16/05/2026,21:00,Olympique Lyonnais,RC Lens,34,notstarted
+F1,16/05/2026,21:00,RC Strasbourg,AS Monaco,34,notstarted
+F1,16/05/2026,21:00,Lille,Auxerre,34,notstarted
+F1,16/05/2026,21:00,Nice,Metz,34,notstarted
+F1,16/05/2026,21:00,Stade Brestois,Angers,34,notstarted
+F1,16/05/2026,21:00,Nantes,Toulouse,34,notstarted
+F1,16/05/2026,21:00,Lorient,Le Havre,34,notstarted
+F2,17/04/2026,20:00,Montpellier,Grenoble Foot 38,31,notstarted
+F2,17/04/2026,20:00,Le Mans,Clermont Foot,31,notstarted
+F2,17/04/2026,20:00,Pau FC,Guingamp,31,notstarted
+F2,17/04/2026,20:00,Nancy,Annecy FC,31,notstarted
+F2,17/04/2026,20:00,Rodez AF,Amiens SC,31,notstarted
+F2,18/04/2026,14:00,Stade de Reims,Red Star FC,31,notstarted
+F2,18/04/2026,14:00,Troyes,US Boulogne Côte-d'Opale,31,notstarted
+F2,18/04/2026,20:00,Bastia,Saint-Étienne,31,notstarted
+F2,20/04/2026,20:45,USL Dunkerque,Stade Lavallois,31,notstarted
+F2,24/04/2026,20:00,Amiens SC,Montpellier,32,notstarted
+F2,24/04/2026,20:00,Red Star FC,Guingamp,32,notstarted
+F2,24/04/2026,20:00,Annecy FC,Pau FC,32,notstarted
+F2,24/04/2026,21:00,Clermont Foot,Bastia,32,notstarted
+F2,24/04/2026,21:00,US Boulogne Côte-d'Opale,USL Dunkerque,32,postponed
+F2,24/04/2026,21:00,Stade Lavallois,Rodez AF,32,notstarted
+F2,25/04/2026,14:00,Stade de Reims,Nancy,32,notstarted
+F2,25/04/2026,14:00,Grenoble Foot 38,Le Mans,32,notstarted
+F2,25/04/2026,20:00,Saint-Étienne,Troyes,32,notstarted
+F2,27/04/2026,20:45,US Boulogne Côte-d'Opale,USL Dunkerque,32,notstarted
+F2,02/05/2026,20:00,Le Mans,Stade de Reims,33,notstarted
+F2,02/05/2026,20:00,Rodez AF,Saint-Étienne,33,notstarted
+F2,02/05/2026,20:00,Montpellier,Clermont Foot,33,notstarted
+F2,02/05/2026,20:00,Troyes,Stade Lavallois,33,notstarted
+F2,02/05/2026,20:00,Amiens SC,Red Star FC,33,notstarted
+F2,02/05/2026,20:00,USL Dunkerque,Grenoble Foot 38,33,notstarted
+F2,02/05/2026,20:00,Guingamp,Bastia,33,notstarted
+F2,02/05/2026,20:00,Pau FC,Nancy,33,notstarted
+F2,02/05/2026,20:00,US Boulogne Côte-d'Opale,Annecy FC,33,notstarted
+F2,09/05/2026,17:00,Stade de Reims,Pau FC,34,notstarted
+F2,09/05/2026,17:00,Saint-Étienne,Amiens SC,34,notstarted
+F2,09/05/2026,17:00,Red Star FC,Montpellier,34,notstarted
+F2,09/05/2026,17:00,Grenoble Foot 38,Troyes,34,notstarted
+F2,09/05/2026,17:00,Clermont Foot,Guingamp,34,notstarted
+F2,09/05/2026,17:00,Bastia,Le Mans,34,notstarted
+F2,09/05/2026,17:00,Nancy,USL Dunkerque,34,notstarted
+F2,09/05/2026,17:00,Annecy FC,Rodez AF,34,notstarted
+F2,09/05/2026,17:00,Stade Lavallois,US Boulogne Côte-d'Opale,34,notstarted
+SC0,25/04/2026,16:00,Aberdeen,Kilmarnock,34,notstarted
+SC0,25/04/2026,16:00,St. Mirren,Livingston,34,notstarted
+SC0,25/04/2026,18:30,Celtic,Falkirk FC,34,notstarted
+SC0,26/04/2026,15:00,Dundee United,Dundee FC,34,notstarted
+SC0,26/04/2026,16:00,Rangers,Motherwell,34,notstarted
+SC0,26/04/2026,17:30,Hibernian,Heart of Midlothian,34,notstarted
+SC0,01/05/2026,20:45,Livingston,Aberdeen,35,notstarted
+SC0,02/05/2026,16:00,Falkirk FC,Motherwell,35,notstarted
+SC0,02/05/2026,16:00,Dundee FC,St. Mirren,35,notstarted
+SC0,02/05/2026,16:00,Kilmarnock,Dundee United,35,notstarted
+SC0,03/05/2026,13:00,Hibernian,Celtic,35,notstarted
+SC0,04/05/2026,18:30,Heart of Midlothian,Rangers,35,notstarted
+SC0,09/05/2026,16:00,Falkirk FC,Hibernian,36,notstarted
+SC0,09/05/2026,16:00,Aberdeen,Dundee United,36,notstarted
+SC0,09/05/2026,16:00,Dundee FC,Livingston,36,notstarted
+SC0,09/05/2026,16:00,St. Mirren,Kilmarnock,36,notstarted
+SC0,09/05/2026,21:00,Motherwell,Heart of Midlothian,36,notstarted
+SC0,10/05/2026,13:00,Celtic,Rangers,36,notstarted
+SC0,12/05/2026,20:45,Aberdeen,St. Mirren,37,notstarted
+SC0,12/05/2026,20:45,Dundee United,Livingston,37,notstarted
+SC0,12/05/2026,20:45,Kilmarnock,Dundee FC,37,notstarted
+SC0,13/05/2026,21:00,Motherwell,Celtic,37,notstarted
+SC0,13/05/2026,21:00,Rangers,Hibernian,37,notstarted
+SC0,13/05/2026,21:00,Heart of Midlothian,Falkirk FC,37,notstarted
+SC0,16/05/2026,13:30,Celtic,Heart of Midlothian,38,notstarted
+SC0,16/05/2026,13:30,Falkirk FC,Rangers,38,notstarted
+SC0,16/05/2026,13:30,Hibernian,Motherwell,38,notstarted
+SC0,17/05/2026,15:00,Dundee FC,Aberdeen,38,notstarted
+SC0,17/05/2026,15:00,St. Mirren,Dundee United,38,notstarted
+SC0,17/05/2026,15:00,Livingston,Kilmarnock,38,notstarted
+SC1,18/04/2026,16:00,Dunfermline Athletic,St. Johnstone,34,postponed
+SC1,18/04/2026,16:00,Ross County,Ayr United,34,notstarted
+SC1,18/04/2026,16:00,Airdrieonians,Partick Thistle,34,notstarted
+SC1,18/04/2026,16:00,Arbroath,Raith Rovers,34,notstarted
+SC1,18/04/2026,16:00,Greenock Morton,Queen's Park FC,34,notstarted
+SC1,21/04/2026,20:45,Dunfermline Athletic,St. Johnstone,34,notstarted
+SC1,24/04/2026,20:45,St. Johnstone,Raith Rovers,35,notstarted
+SC1,25/04/2026,16:00,Arbroath,Partick Thistle,35,notstarted
+SC1,25/04/2026,16:00,Ross County,Greenock Morton,35,notstarted
+SC1,25/04/2026,16:00,Queen's Park FC,Dunfermline Athletic,35,notstarted
+SC1,25/04/2026,16:00,Airdrieonians,Ayr United,35,notstarted
+SC1,01/05/2026,20:45,Ayr United,St. Johnstone,36,notstarted
+SC1,01/05/2026,20:45,Partick Thistle,Queen's Park FC,36,notstarted
+SC1,01/05/2026,20:45,Raith Rovers,Ross County,36,notstarted
+SC1,01/05/2026,20:45,Dunfermline Athletic,Arbroath,36,notstarted
+SC1,01/05/2026,20:45,Greenock Morton,Airdrieonians,36,notstarted
+SC2,18/04/2026,16:00,Inverness Caledonian Thistle,Kelty Hearts F.C.,34,notstarted
+SC2,18/04/2026,16:00,Cove Rangers,Stenhousemuir,34,notstarted
+SC2,18/04/2026,16:00,Montrose,Hamilton Academical,34,notstarted
+SC2,18/04/2026,16:00,Peterhead,Queen of The South,34,notstarted
+SC2,18/04/2026,16:00,Alloa Athletic,East Fife,34,notstarted
+SC2,25/04/2026,16:00,East Fife,Inverness Caledonian Thistle,35,notstarted
+SC2,25/04/2026,16:00,Kelty Hearts F.C.,Cove Rangers,35,notstarted
+SC2,25/04/2026,16:00,Hamilton Academical,Peterhead,35,notstarted
+SC2,25/04/2026,16:00,Queen of The South,Montrose,35,notstarted
+SC2,25/04/2026,16:00,Stenhousemuir,Alloa Athletic,35,notstarted
+SC2,02/05/2026,16:00,Inverness Caledonian Thistle,Hamilton Academical,36,notstarted
+SC2,02/05/2026,16:00,Cove Rangers,East Fife,36,notstarted
+SC2,02/05/2026,16:00,Montrose,Stenhousemuir,36,notstarted
+SC2,02/05/2026,16:00,Alloa Athletic,Queen of The South,36,notstarted
+SC2,02/05/2026,16:00,Peterhead,Kelty Hearts F.C.,36,notstarted
+SC3,18/04/2026,16:00,Annan Athletic,The Spartans FC,34,notstarted
+SC3,18/04/2026,16:00,Clyde FC,Dumbarton,34,notstarted
+SC3,18/04/2026,16:00,East Kilbride,Edinburgh City F.C.,34,notstarted
+SC3,18/04/2026,16:00,Stirling Albion,Elgin City,34,notstarted
+SC3,18/04/2026,16:00,Stranraer,Forfar Athletic,34,notstarted
+SC3,25/04/2026,16:00,The Spartans FC,Elgin City,35,notstarted
+SC3,25/04/2026,16:00,Dumbarton,East Kilbride,35,notstarted
+SC3,25/04/2026,16:00,Clyde FC,Annan Athletic,35,notstarted
+SC3,25/04/2026,16:00,Forfar Athletic,Edinburgh City F.C.,35,notstarted
+SC3,25/04/2026,16:00,Stranraer,Stirling Albion,35,notstarted
+SC3,02/05/2026,16:00,Edinburgh City F.C.,Dumbarton,36,notstarted
+SC3,02/05/2026,16:00,East Kilbride,Clyde FC,36,notstarted
+SC3,02/05/2026,16:00,Stirling Albion,The Spartans FC,36,notstarted
+SC3,02/05/2026,16:00,Elgin City,Stranraer,36,notstarted
+SC3,02/05/2026,16:00,Annan Athletic,Forfar Athletic,36,notstarted
+B1,18/04/2026,16:00,Royal Antwerp FC,Oud-Heverlee Leuven,3,notstarted
+B1,18/04/2026,18:15,KVC Westerlo,KRC Genk,3,notstarted
+B1,18/04/2026,18:15,RC Sporting Charleroi,Standard Liège,3,notstarted
+B1,18/04/2026,20:45,KV Mechelen,RSC Anderlecht,3,notstarted
+B1,19/04/2026,13:30,KAA Gent,Sint-Truidense VV,3,notstarted
+B1,19/04/2026,16:00,FCV Dender,Cercle Brugge,3,notstarted
+B1,19/04/2026,18:30,Royale Union Saint-Gilloise,Club Brugge KV,3,notstarted
+B1,19/04/2026,19:15,RAAL La Louvière,SV Zulte Waregem,3,notstarted
+B1,21/04/2026,20:30,KRC Genk,RC Sporting Charleroi,4,notstarted
+B1,21/04/2026,20:30,Standard Liège,Royal Antwerp FC,4,notstarted
+B1,21/04/2026,20:30,Oud-Heverlee Leuven,KVC Westerlo,4,notstarted
+B1,22/04/2026,20:30,Club Brugge KV,KV Mechelen,4,notstarted
+B1,22/04/2026,20:30,Royale Union Saint-Gilloise,KAA Gent,4,notstarted
+B1,23/04/2026,20:30,Sint-Truidense VV,RSC Anderlecht,4,notstarted
+B1,24/04/2026,20:45,Cercle Brugge,FCV Dender,4,notstarted
+B1,25/04/2026,16:00,Oud-Heverlee Leuven,RC Sporting Charleroi,5,notstarted
+B1,25/04/2026,18:15,KRC Genk,Standard Liège,5,notstarted
+B1,25/04/2026,20:45,KVC Westerlo,Royal Antwerp FC,5,notstarted
+B1,26/04/2026,13:30,KAA Gent,Club Brugge KV,5,notstarted
+B1,26/04/2026,16:00,KV Mechelen,Sint-Truidense VV,5,notstarted
+B1,26/04/2026,18:30,RSC Anderlecht,Royale Union Saint-Gilloise,5,notstarted
+B1,26/04/2026,19:15,SV Zulte Waregem,RAAL La Louvière,4,notstarted
+B1,01/05/2026,20:45,Cercle Brugge,SV Zulte Waregem,5,notstarted
+B1,02/05/2026,16:00,KVC Westerlo,Oud-Heverlee Leuven,6,notstarted
+B1,02/05/2026,18:15,RC Sporting Charleroi,KRC Genk,6,notstarted
+B1,02/05/2026,20:45,Sint-Truidense VV,Royale Union Saint-Gilloise,6,notstarted
+B1,03/05/2026,13:30,KV Mechelen,KAA Gent,6,notstarted
+B1,03/05/2026,16:00,Royal Antwerp FC,Standard Liège,6,notstarted
+B1,03/05/2026,18:30,RSC Anderlecht,Club Brugge KV,6,notstarted
+B1,03/05/2026,19:15,FCV Dender,RAAL La Louvière,5,notstarted
+B1,09/05/2026,16:00,RAAL La Louvière,Cercle Brugge,6,notstarted
+B1,09/05/2026,16:00,SV Zulte Waregem,FCV Dender,6,notstarted
+B1,09/05/2026,20:45,Club Brugge KV,Sint-Truidense VV,7,notstarted
+B1,09/05/2026,20:45,Standard Liège,Oud-Heverlee Leuven,7,notstarted
+B1,10/05/2026,13:30,KAA Gent,RSC Anderlecht,7,notstarted
+B1,10/05/2026,16:00,Royal Antwerp FC,RC Sporting Charleroi,7,notstarted
+B1,10/05/2026,18:30,Royale Union Saint-Gilloise,KV Mechelen,7,notstarted
+B1,10/05/2026,19:15,KRC Genk,KVC Westerlo,7,notstarted
+B1,15/05/2026,20:45,Oud-Heverlee Leuven,Royal Antwerp FC,8,notstarted
+B1,16/05/2026,16:00,RC Sporting Charleroi,KVC Westerlo,8,notstarted
+B1,16/05/2026,18:15,Standard Liège,KRC Genk,8,notstarted
+B1,16/05/2026,20:45,Sint-Truidense VV,KAA Gent,8,notstarted
+B1,17/05/2026,13:30,RSC Anderlecht,KV Mechelen,8,notstarted
+B1,17/05/2026,18:30,Club Brugge KV,Royale Union Saint-Gilloise,8,notstarted
+B1,19/05/2026,20:30,KRC Genk,Royal Antwerp FC,9,notstarted
+B1,19/05/2026,20:30,KVC Westerlo,Standard Liège,9,notstarted
+B1,19/05/2026,20:30,RC Sporting Charleroi,Oud-Heverlee Leuven,9,notstarted
+B1,21/05/2026,20:30,KV Mechelen,Club Brugge KV,9,notstarted
+B1,21/05/2026,20:30,KAA Gent,Royale Union Saint-Gilloise,9,notstarted
+B1,21/05/2026,20:30,RSC Anderlecht,Sint-Truidense VV,9,notstarted
+B1,23/05/2026,20:45,Oud-Heverlee Leuven,KRC Genk,10,notstarted
+B1,23/05/2026,20:45,Royal Antwerp FC,KVC Westerlo,10,notstarted
+B1,23/05/2026,20:45,Standard Liège,RC Sporting Charleroi,10,notstarted
+B1,24/05/2026,18:30,Club Brugge KV,KAA Gent,10,notstarted
+B1,24/05/2026,18:30,Royale Union Saint-Gilloise,RSC Anderlecht,10,notstarted
+B1,24/05/2026,18:30,Sint-Truidense VV,KV Mechelen,10,notstarted
+N1,22/04/2026,20:00,SC Telstar,Sparta Rotterdam,31,notstarted
+N1,23/04/2026,18:45,Go Ahead Eagles,AZ Alkmaar,31,notstarted
+N1,23/04/2026,21:00,PSV Eindhoven,PEC Zwolle,31,notstarted
+N1,25/04/2026,16:30,Feyenoord,FC Groningen,31,notstarted
+N1,25/04/2026,18:45,SC Heerenveen,Fortuna Sittard,31,notstarted
+N1,25/04/2026,20:00,NAC Breda,AFC Ajax,31,notstarted
+N1,25/04/2026,21:00,FC Twente,NEC Nijmegen,31,notstarted
+N1,26/04/2026,12:15,Excelsior,FC Utrecht,31,notstarted
+N1,26/04/2026,14:30,Heracles Almelo,FC Volendam,31,notstarted
+N1,02/05/2026,16:30,FC Utrecht,NAC Breda,32,notstarted
+N1,02/05/2026,18:45,FC Groningen,Excelsior,32,notstarted
+N1,02/05/2026,20:00,AFC Ajax,PSV Eindhoven,32,notstarted
+N1,02/05/2026,21:00,NEC Nijmegen,SC Telstar,32,notstarted
+N1,03/05/2026,12:15,FC Volendam,SC Heerenveen,32,notstarted
+N1,03/05/2026,14:30,Fortuna Sittard,Feyenoord,32,notstarted
+N1,03/05/2026,14:30,PEC Zwolle,Heracles Almelo,32,notstarted
+N1,03/05/2026,16:45,AZ Alkmaar,FC Twente,32,notstarted
+N1,03/05/2026,16:45,Sparta Rotterdam,Go Ahead Eagles,32,notstarted
+N1,10/05/2026,16:45,AFC Ajax,FC Utrecht,33,notstarted
+N1,10/05/2026,16:45,Go Ahead Eagles,PSV Eindhoven,33,notstarted
+N1,10/05/2026,16:45,Feyenoord,AZ Alkmaar,33,notstarted
+N1,10/05/2026,16:45,FC Twente,Sparta Rotterdam,33,notstarted
+N1,10/05/2026,16:45,FC Groningen,NEC Nijmegen,33,notstarted
+N1,10/05/2026,16:45,NAC Breda,SC Heerenveen,33,notstarted
+N1,10/05/2026,16:45,Fortuna Sittard,PEC Zwolle,33,notstarted
+N1,10/05/2026,16:45,SC Telstar,Heracles Almelo,33,notstarted
+N1,10/05/2026,16:45,Excelsior,FC Volendam,33,notstarted
+N1,17/05/2026,14:30,PSV Eindhoven,FC Twente,34,notstarted
+N1,17/05/2026,14:30,SC Heerenveen,AFC Ajax,34,notstarted
+N1,17/05/2026,14:30,PEC Zwolle,Feyenoord,34,notstarted
+N1,17/05/2026,14:30,AZ Alkmaar,NAC Breda,34,notstarted
+N1,17/05/2026,14:30,FC Utrecht,Fortuna Sittard,34,notstarted
+N1,17/05/2026,14:30,NEC Nijmegen,Go Ahead Eagles,34,notstarted
+N1,17/05/2026,14:30,Sparta Rotterdam,Excelsior,34,notstarted
+N1,17/05/2026,14:30,Heracles Almelo,FC Groningen,34,notstarted
+N1,17/05/2026,14:30,FC Volendam,SC Telstar,34,notstarted
+P1,17/04/2026,21:45,Rio Ave,AVS - Futebol SAD,30,notstarted
+P1,18/04/2026,16:30,CD Nacional,FC Alverca,30,notstarted
+P1,18/04/2026,19:00,Casa Pia,Santa Clara,30,notstarted
+P1,18/04/2026,21:30,Gil Vicente,Vitória SC,30,notstarted
+P1,19/04/2026,16:30,FC Arouca,CF Estrela Amadora,30,notstarted
+P1,19/04/2026,19:00,Sporting CP,Benfica,30,notstarted
+P1,19/04/2026,21:30,FC Porto,Tondela,30,notstarted
+P1,19/04/2026,21:30,Sporting Braga,Famalicão,30,notstarted
+P1,20/04/2026,21:15,Moreirense,Estoril Praia,30,notstarted
+P1,23/04/2026,21:15,Casa Pia,Sporting Braga,26,notstarted
+P1,25/04/2026,13:00,Benfica,Moreirense,31,notstarted
+P1,25/04/2026,13:00,AVS - Futebol SAD,Sporting CP,31,notstarted
+P1,25/04/2026,13:00,CF Estrela Amadora,FC Porto,31,notstarted
+P1,25/04/2026,13:00,Santa Clara,Sporting Braga,31,notstarted
+P1,25/04/2026,13:00,Vitória SC,Rio Ave,31,notstarted
+P1,25/04/2026,13:00,Estoril Praia,Famalicão,31,notstarted
+P1,25/04/2026,13:00,Gil Vicente,Casa Pia,31,notstarted
+P1,25/04/2026,13:00,FC Alverca,FC Arouca,31,notstarted
+P1,25/04/2026,13:00,Tondela,CD Nacional,31,notstarted
+P1,02/05/2026,13:00,Famalicão,Benfica,32,notstarted
+P1,02/05/2026,13:00,Sporting CP,Vitória SC,32,notstarted
+P1,02/05/2026,13:00,FC Porto,FC Alverca,32,notstarted
+P1,02/05/2026,13:00,Sporting Braga,Estoril Praia,32,notstarted
+P1,02/05/2026,13:00,Rio Ave,Gil Vicente,32,notstarted
+P1,02/05/2026,13:00,FC Arouca,Santa Clara,32,notstarted
+P1,02/05/2026,13:00,Moreirense,CF Estrela Amadora,32,notstarted
+P1,02/05/2026,13:00,Casa Pia,Tondela,32,notstarted
+P1,02/05/2026,13:00,CD Nacional,AVS - Futebol SAD,32,notstarted
+P1,09/05/2026,13:00,Benfica,Sporting Braga,33,notstarted
+P1,09/05/2026,13:00,Rio Ave,Sporting CP,33,notstarted
+P1,09/05/2026,13:00,AVS - Futebol SAD,FC Porto,33,notstarted
+P1,09/05/2026,13:00,Vitória SC,Casa Pia,33,notstarted
+P1,09/05/2026,13:00,CF Estrela Amadora,Famalicão,33,notstarted
+P1,09/05/2026,13:00,Gil Vicente,FC Arouca,33,notstarted
+P1,09/05/2026,13:00,Santa Clara,CD Nacional,33,notstarted
+P1,09/05/2026,13:00,Tondela,Moreirense,33,notstarted
+P1,09/05/2026,13:00,FC Alverca,Estoril Praia,33,notstarted
+P1,16/05/2026,13:00,Estoril Praia,Benfica,34,notstarted
+P1,16/05/2026,13:00,Sporting CP,Gil Vicente,34,notstarted
+P1,16/05/2026,13:00,FC Porto,Santa Clara,34,notstarted
+P1,16/05/2026,13:00,Sporting Braga,CF Estrela Amadora,34,notstarted
+P1,16/05/2026,13:00,CD Nacional,Vitória SC,34,notstarted
+P1,16/05/2026,13:00,Famalicão,FC Alverca,34,notstarted
+P1,16/05/2026,13:00,Casa Pia,Rio Ave,34,notstarted
+P1,16/05/2026,13:00,FC Arouca,Tondela,34,notstarted
+P1,16/05/2026,13:00,Moreirense,AVS - Futebol SAD,34,notstarted
+G1,18/04/2026,15:00,AE Kifisia,Asteras Aktor,3,notstarted
+G1,18/04/2026,16:00,APS Atromitos Athinon,AEL Novibet,3,notstarted
+G1,18/04/2026,17:00,OFI Crete,APO Levadiakos,2,notstarted
+G1,18/04/2026,18:00,Aris Thessaloniki,NPS Volos,2,notstarted
+G1,18/04/2026,19:00,GFS Panetolikos,MGS Panserraikos,3,notstarted
+G1,19/04/2026,17:00,AEK Athens,PAOK,2,notstarted
+G1,19/04/2026,20:00,Panathinaikos FC,Olympiacos FC,2,notstarted
+G1,22/04/2026,15:00,MGS Panserraikos,APS Atromitos Athinon,4,notstarted
+G1,22/04/2026,16:00,AEL Novibet,AE Kifisia,4,notstarted
+G1,22/04/2026,19:00,Asteras Aktor,GFS Panetolikos,4,notstarted
+G1,26/04/2026,15:00,AE Kifisia,GFS Panetolikos,5,notstarted
+G1,26/04/2026,17:00,APS Atromitos Athinon,Asteras Aktor,5,notstarted
+G1,26/04/2026,19:00,AEL Novibet,MGS Panserraikos,5,notstarted
+G1,02/05/2026,16:00,GFS Panetolikos,AE Kifisia,6,notstarted
+G1,02/05/2026,16:30,MGS Panserraikos,AEL Novibet,6,notstarted
+G1,02/05/2026,18:30,Asteras Aktor,APS Atromitos Athinon,6,notstarted
+G1,03/05/2026,16:00,OFI Crete,Aris Thessaloniki,3,notstarted
+G1,03/05/2026,16:00,APO Levadiakos,NPS Volos,3,notstarted
+G1,03/05/2026,18:00,PAOK,Olympiacos FC,3,notstarted
+G1,03/05/2026,20:00,Panathinaikos FC,AEK Athens,3,notstarted
+G1,09/05/2026,15:00,MGS Panserraikos,AE Kifisia,7,notstarted
+G1,09/05/2026,16:00,AEL Novibet,Asteras Aktor,7,notstarted
+G1,09/05/2026,18:30,APS Atromitos Athinon,GFS Panetolikos,7,notstarted
+G1,10/05/2026,16:00,Aris Thessaloniki,OFI Crete,4,notstarted
+G1,10/05/2026,16:00,NPS Volos,APO Levadiakos,4,notstarted
+G1,10/05/2026,18:30,Olympiacos FC,PAOK,4,notstarted
+G1,10/05/2026,18:30,AEK Athens,Panathinaikos FC,4,notstarted
+G1,12/05/2026,18:00,GFS Panetolikos,AEL Novibet,8,notstarted
+G1,12/05/2026,18:00,AE Kifisia,APS Atromitos Athinon,8,notstarted
+G1,12/05/2026,18:00,Asteras Aktor,MGS Panserraikos,8,notstarted
+G1,13/05/2026,16:00,NPS Volos,Aris Thessaloniki,5,notstarted
+G1,13/05/2026,16:00,APO Levadiakos,OFI Crete,5,notstarted
+G1,13/05/2026,18:30,Olympiacos FC,Panathinaikos FC,5,notstarted
+G1,13/05/2026,18:30,PAOK,AEK Athens,5,notstarted
+G1,16/05/2026,18:00,MGS Panserraikos,GFS Panetolikos,9,notstarted
+G1,16/05/2026,18:00,AEL Novibet,APS Atromitos Athinon,9,notstarted
+G1,16/05/2026,18:00,Asteras Aktor,AE Kifisia,9,notstarted
+G1,17/05/2026,16:00,Aris Thessaloniki,APO Levadiakos,6,notstarted
+G1,17/05/2026,16:00,OFI Crete,NPS Volos,6,notstarted
+G1,17/05/2026,18:30,AEK Athens,Olympiacos FC,6,notstarted
+G1,17/05/2026,18:30,Panathinaikos FC,PAOK,6,notstarted
+G1,21/05/2026,18:00,APS Atromitos Athinon,MGS Panserraikos,10,notstarted
+G1,21/05/2026,18:00,GFS Panetolikos,Asteras Aktor,10,notstarted
+G1,21/05/2026,18:00,AE Kifisia,AEL Novibet,10,notstarted
+T1,17/04/2026,19:00,Fenerbahçe,Çaykur Rizespor,30,notstarted
+T1,17/04/2026,19:00,Antalyaspor,Konyaspor,30,notstarted
+T1,18/04/2026,13:30,Fatih Karagümrük,Eyüpspor,30,notstarted
+T1,18/04/2026,16:00,Kocaelispor,Göztepe,30,notstarted
+T1,18/04/2026,19:00,Gençlerbirliği,Galatasaray,30,notstarted
+T1,19/04/2026,13:30,Kasımpaşa,Alanyaspor,30,notstarted
+T1,19/04/2026,16:00,Samsunspor,Beşiktaş JK,30,notstarted
+T1,19/04/2026,19:00,Trabzonspor,Başakşehir FK,30,notstarted
+T1,20/04/2026,19:00,Gaziantep FK,Kayserispor,30,notstarted
+T1,24/04/2026,19:00,Başakşehir FK,Kasımpaşa,31,notstarted
+T1,25/04/2026,13:30,Eyüpspor,Gaziantep FK,31,notstarted
+T1,25/04/2026,16:00,Kayserispor,Çaykur Rizespor,31,notstarted
+T1,25/04/2026,19:00,Göztepe,Antalyaspor,31,notstarted
+T1,26/04/2026,13:30,Gençlerbirliği,Kocaelispor,31,notstarted
+T1,26/04/2026,19:00,Galatasaray,Fenerbahçe,31,notstarted
+T1,27/04/2026,16:00,Alanyaspor,Samsunspor,31,notstarted
+T1,27/04/2026,19:00,Beşiktaş JK,Fatih Karagümrük,31,notstarted
+T1,27/04/2026,19:00,Konyaspor,Trabzonspor,31,notstarted
+T1,03/05/2026,17:00,Samsunspor,Galatasaray,32,notstarted
+T1,03/05/2026,17:00,Fenerbahçe,Başakşehir FK,32,notstarted
+T1,03/05/2026,17:00,Gaziantep FK,Beşiktaş JK,32,notstarted
+T1,03/05/2026,17:00,Trabzonspor,Göztepe,32,notstarted
+T1,03/05/2026,17:00,Antalyaspor,Alanyaspor,32,notstarted
+T1,03/05/2026,17:00,Çaykur Rizespor,Konyaspor,32,notstarted
+T1,03/05/2026,17:00,Kasımpaşa,Kocaelispor,32,notstarted
+T1,03/05/2026,17:00,Kayserispor,Eyüpspor,32,notstarted
+T1,03/05/2026,17:00,Fatih Karagümrük,Gençlerbirliği,32,notstarted
+T1,10/05/2026,17:00,Galatasaray,Antalyaspor,33,notstarted
+T1,10/05/2026,17:00,Konyaspor,Fenerbahçe,33,notstarted
+T1,10/05/2026,17:00,Beşiktaş JK,Trabzonspor,33,notstarted
+T1,10/05/2026,17:00,Başakşehir FK,Samsunspor,33,notstarted
+T1,10/05/2026,17:00,Göztepe,Gaziantep FK,33,notstarted
+T1,10/05/2026,17:00,Eyüpspor,Çaykur Rizespor,33,notstarted
+T1,10/05/2026,17:00,Alanyaspor,Kayserispor,33,notstarted
+T1,10/05/2026,17:00,Gençlerbirliği,Kasımpaşa,33,notstarted
+T1,10/05/2026,17:00,Kocaelispor,Fatih Karagümrük,33,notstarted
+T1,17/05/2026,17:00,Kasımpaşa,Galatasaray,34,notstarted
+T1,17/05/2026,17:00,Fenerbahçe,Eyüpspor,34,notstarted
+T1,17/05/2026,17:00,Çaykur Rizespor,Beşiktaş JK,34,notstarted
+T1,17/05/2026,17:00,Trabzonspor,Gençlerbirliği,34,notstarted
+T1,17/05/2026,17:00,Gaziantep FK,Başakşehir FK,34,notstarted
+T1,17/05/2026,17:00,Samsunspor,Göztepe,34,notstarted
+T1,17/05/2026,17:00,Kayserispor,Konyaspor,34,notstarted
+T1,17/05/2026,17:00,Antalyaspor,Kocaelispor,34,notstarted
+T1,17/05/2026,17:00,Fatih Karagümrük,Alanyaspor,34,notstarted

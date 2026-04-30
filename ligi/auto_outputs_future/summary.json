@@ -1,0 +1,14 @@
+{
+  "n_leagues_with_future": 21,
+  "n_success": 95,
+  "n_failed": 10,
+  "tuning_runs_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\tuning_runs.csv",
+  "best_settings_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\best_settings.csv",
+  "feature_list_full_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\feature_list_full.csv",
+  "predictions_full_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\predictions_full.csv",
+  "predictions_1row_all_targets_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\future_predictions_1row_all_targets.csv",
+  "calibration_5pct_bins_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\calibration_5pct_bins.csv",
+  "future_predictions_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\future_predictions_all.csv",
+  "overdue_predictions_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\overdue_predictions_all.csv",
+  "errors_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\ligi\\auto_outputs_future\\errors.csv"
+}

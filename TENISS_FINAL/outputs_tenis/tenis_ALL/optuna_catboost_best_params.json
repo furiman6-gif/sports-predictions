@@ -1,0 +1,21 @@
+{
+  "study_name": "tenis_cat_ALL",
+  "best_value_logloss": 0.6052125114122974,
+  "best_trial_number": 0,
+  "best_iteration": 970,
+  "best_params": {
+    "learning_rate": 0.03,
+    "depth": 6,
+    "l2_leaf_reg": 3.0,
+    "random_strength": 1.0,
+    "bagging_temperature": 1.0,
+    "border_count": 254,
+    "min_data_in_leaf": 1,
+    "leaf_estimation_iterations": 1,
+    "iterations": 970
+  },
+  "n_trials_total": 55,
+  "n_complete": 22,
+  "n_pruned": 32,
+  "n_failed": 1
+}

@@ -1,0 +1,41 @@
+{
+  "csv_path": "C:\\Users\\furim\\Desktop\\FINAL_tenis\\TENISS_FINAL\\stats\\csv\\final_z_statami.csv",
+  "feature_set_name": "non_elo_plus_glicko",
+  "feature_cols": [
+    "glicko_surf_r_diff",
+    "glicko_surf_rd_diff",
+    "diff_days_rest",
+    "diff_surface_change",
+    "h2h_win_pct_3",
+    "h2h_win_pct_5",
+    "h2h_surf_win_pct_3",
+    "h2h_surf_win_pct_5",
+    "diff_roll_1st_serve_won_pct_form4",
+    "diff_roll_2nd_serve_won_pct_form4",
+    "diff_roll_bp_saved_pct_form4",
+    "diff_roll_bp_conv_pct_form4",
+    "diff_roll_return_pts_won_pct_form4"
+  ],
+  "n_features": 13,
+  "best_elo_cfg_name": "elo_k40_i1500_u0",
+  "best_elo_k": 40,
+  "best_elo_initial": 1500,
+  "best_elo_inactivity_uncertainty": 0.0,
+  "best_n_last_seasons": 25,
+  "best_cfg_name": "model_tighter",
+  "best_cfg_override": {
+    "num_leaves": 31,
+    "min_child_samples": 120,
+    "reg_alpha": 0.4,
+    "reg_lambda": 8.0
+  },
+  "best_threshold": 0.44,
+  "best_iter": 95,
+  "valid_logloss": 0.6335915936840734,
+  "test_logloss": 0.6219238728296018,
+  "valid_accuracy": 0.6435406698564593,
+  "test_accuracy": 0.6727115716753023,
+  "valid_auc": 0.6195598523376719,
+  "test_auc": 0.5997675033421395,
+  "passed_68_test_accuracy": false
+}

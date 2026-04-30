@@ -1,0 +1,9 @@
+# Git LFS - duze pliki danych
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+ligi/*/wszystkie_sezony.csv filter=lfs diff=lfs merge=lfs -text
+ligi/*/*/wszystkie_sezony.csv filter=lfs diff=lfs merge=lfs -text
+TENISS_FINAL/stats/csv/final_z_statami.csv filter=lfs diff=lfs merge=lfs -text
+TENISS_FINAL/stats/csv/final_z_statami_extended.csv filter=lfs diff=lfs merge=lfs -text
+TENISS_FINAL/stats/csv/all_seasons_charting_mapping.csv filter=lfs diff=lfs merge=lfs -text
+TENISS_FINAL/stats/csv/charting_match_rolling.csv filter=lfs diff=lfs merge=lfs -text

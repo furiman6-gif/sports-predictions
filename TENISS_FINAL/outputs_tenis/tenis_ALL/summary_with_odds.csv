@@ -1,0 +1,2 @@
+file,surface,n_selected_seasons,train_seasons,valid_seasons,test_seasons,n_train,n_valid,n_test,n_future,n_features,pred_threshold,elo_k,elo_initial,elo_inactivity_uncertainty,best_iteration,valid_logloss_raw,test_logloss_raw,valid_logloss_cal,test_logloss_cal,valid_brier,test_brier,valid_accuracy,test_accuracy,test_auc,test_ece_raw,test_ece_cal,calib_used,tg_mae,tg_rmse
+final_z_statami.csv,ALL,25,2002-2022,2023-2024,2025-2026,55276,5434,3488,24,25,0.44,40,1500,0.0,312,0.58643,0.59712,0.58145,0.60699,0.20036,0.2059,0.6803,0.6861,0.6702,0.04902,0.0487,isotonic,6.68,8.666

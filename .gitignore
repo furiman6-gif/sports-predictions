@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Env
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Duze pliki posrednie (regenerowane przez pipeline)
+TENISS_FINAL/stats/csv/all_seasons_charting_full_wide.csv
+TENISS_FINAL/stats/csv/all_seasons_charting_project.csv
+TENISS_FINAL/stats/csv/final_2_projekt.csv
+TENISS_FINAL/stats/csv/5stats_projekt.csv
+TENISS_FINAL/stats/charting_cache/
+TENISS_FINAL/outputs_tenis/*/test_predictions*.csv
+TENISS_FINAL/outputs_tenis/*/staking_*.csv
+TENISS_FINAL/outputs_tenis/*/feature_list_full.csv
+TENISS_FINAL/core/
+
+# Pickle state files
+*.pkl
+*_state.pkl
+
+# Temp
+*.tmp
+*.bak
+logs/
+
+# Duze CSV posrednie z ligi
+ligi/*/*/wszystkie_sezony_Tylko_Cechy_Rankingowe.csv
+ligi/*/*/wszystkie_sezony_bars6_Cechy_Rankingowe.csv
+ligi/*/*/merged_data*.csv
+ligi/*/*/final_feature_engineered*.csv
+ligi/auto_outputs_future/predictions_full.csv
+ligi/auto_outputs_future/tuning_runs.csv
+ligi/auto_outputs_future/feature_list_full.csv
+ligi/wszystkie_sezony_Tylko_Cechy_Rankingowe.csv
+
+# Historyczne sezony (odtwarzane przez download_results.py)
+ligi/*/sezony/
+ligi/*/*/sezony/
+
+# Stare outputy per liga
+ligi/*/outputs_single/
+ligi/*/*/outputs_single/
+
+# Stare/nieuzywane pliki per liga
+ligi/*/*/pipeline.py
+ligi/*/*/gbm4_crystal_palace*.py
+ligi/*/gbm4b.py
+ligi/*/*/gbm4b.py
+ligi/*/holdout_predictions*.csv
+ligi/*/*/holdout_predictions*.csv
+ligi/*/test_predictions*.csv
+ligi/*/*/test_predictions*.csv
+ligi/*/predictions_full.csv
+ligi/*/*/predictions_full.csv
+
+# Stare outputs tenis
+TENISS_FINAL/gbm4o.py
+TENISS_FINAL/gbm4oc.py
+TENISS_FINAL/gbm4occ.py
+TENISS_FINAL/outputs_tenis/*/predictions_full.csv
+TENISS_FINAL/outputs_tenis/*/feature_list_full.csv
+TENISS_FINAL/outputs_tenis/*/test_predictions.csv
+
+# NBA/WTA/jeff/tactical-edge (inne projekty - na razie nie wrzucamy)
+NBA/
+WTA/
+jeff/
+tactical-edge/
+
+# Claude
+.claude/

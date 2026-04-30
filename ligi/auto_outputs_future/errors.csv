@@ -1,0 +1,171 @@
+league,target_mode,error,traceback
+Greece/Super_League,FTR,Length of values (6997) does not match length of index (7309),"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 911, in run_league
+    bundle = prepare_bundle(module, n_last_seasons=n, target_mode=target_mode, split_mode=""auto"", use_xg=use_xg, league_name=league_name)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 598, in prepare_bundle
+    all_df = add_home_away_context_features(module, all_df)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 551, in add_home_away_context_features
+    home_long[f""home_ctx_{metric}_avg_last{w}""] = roll_h.reset_index(level=0, drop=True).values
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4322, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4535, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 5288, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\common.py"", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (6997) does not match length of index (7309)
+"
+Greece/Super_League,BTTS,Length of values (6997) does not match length of index (7309),"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 911, in run_league
+    bundle = prepare_bundle(module, n_last_seasons=n, target_mode=target_mode, split_mode=""auto"", use_xg=use_xg, league_name=league_name)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 598, in prepare_bundle
+    all_df = add_home_away_context_features(module, all_df)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 551, in add_home_away_context_features
+    home_long[f""home_ctx_{metric}_avg_last{w}""] = roll_h.reset_index(level=0, drop=True).values
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4322, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4535, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 5288, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\common.py"", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (6997) does not match length of index (7309)
+"
+Greece/Super_League,O25,Length of values (6997) does not match length of index (7309),"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 911, in run_league
+    bundle = prepare_bundle(module, n_last_seasons=n, target_mode=target_mode, split_mode=""auto"", use_xg=use_xg, league_name=league_name)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 598, in prepare_bundle
+    all_df = add_home_away_context_features(module, all_df)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 551, in add_home_away_context_features
+    home_long[f""home_ctx_{metric}_avg_last{w}""] = roll_h.reset_index(level=0, drop=True).values
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4322, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4535, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 5288, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\common.py"", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (6997) does not match length of index (7309)
+"
+Greece/Super_League,CRD25,Length of values (6997) does not match length of index (7309),"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 911, in run_league
+    bundle = prepare_bundle(module, n_last_seasons=n, target_mode=target_mode, split_mode=""auto"", use_xg=use_xg, league_name=league_name)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 598, in prepare_bundle
+    all_df = add_home_away_context_features(module, all_df)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 551, in add_home_away_context_features
+    home_long[f""home_ctx_{metric}_avg_last{w}""] = roll_h.reset_index(level=0, drop=True).values
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4322, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4535, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 5288, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\common.py"", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (6997) does not match length of index (7309)
+"
+Greece/Super_League,SHTOU,Length of values (6997) does not match length of index (7309),"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 911, in run_league
+    bundle = prepare_bundle(module, n_last_seasons=n, target_mode=target_mode, split_mode=""auto"", use_xg=use_xg, league_name=league_name)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 598, in prepare_bundle
+    all_df = add_home_away_context_features(module, all_df)
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 551, in add_home_away_context_features
+    home_long[f""home_ctx_{metric}_avg_last{w}""] = roll_h.reset_index(level=0, drop=True).values
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4322, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 4535, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py"", line 5288, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\AppData\Roaming\Python\Python314\site-packages\pandas\core\common.py"", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (6997) does not match length of index (7309)
+"
+Spain/La_Liga,FTR,Brak udanych runów dla testu sezonów,"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 941, in run_league
+    raise RuntimeError(""Brak udanych runów dla testu sezonów"")
+RuntimeError: Brak udanych runów dla testu sezonów
+"
+Spain/La_Liga,BTTS,Brak udanych runów dla testu sezonów,"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 941, in run_league
+    raise RuntimeError(""Brak udanych runów dla testu sezonów"")
+RuntimeError: Brak udanych runów dla testu sezonów
+"
+Spain/La_Liga,O25,Brak udanych runów dla testu sezonów,"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 941, in run_league
+    raise RuntimeError(""Brak udanych runów dla testu sezonów"")
+RuntimeError: Brak udanych runów dla testu sezonów
+"
+Spain/La_Liga,CRD25,Brak udanych runów dla testu sezonów,"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 941, in run_league
+    raise RuntimeError(""Brak udanych runów dla testu sezonów"")
+RuntimeError: Brak udanych runów dla testu sezonów
+"
+Spain/La_Liga,SHTOU,Brak udanych runów dla testu sezonów,"Traceback (most recent call last):
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 1253, in main
+    season_rows, param_rows, best_row, feature_df, test_pred_df, future_df, overdue_df = run_league(league, target_mode)
+                                                                                         ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\furim\Desktop\FINAL_tenis\ligi\auto_future_optimizer.py"", line 941, in run_league
+    raise RuntimeError(""Brak udanych runów dla testu sezonów"")
+RuntimeError: Brak udanych runów dla testu sezonów
+"

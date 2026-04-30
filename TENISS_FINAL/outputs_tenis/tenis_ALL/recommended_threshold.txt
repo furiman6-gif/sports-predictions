@@ -1,0 +1,2 @@
+aggressive: threshold=0.55 | roi_avg=7.01% | roi_min=-1.61% | max_dd_avg=32.23% | rule=max avg ROI
+stable: threshold=0.69 | roi_avg=2.52% | roi_min=-1.08% | max_dd_avg=14.83% | rule=positive avg ROI + mild worst window + low drawdown

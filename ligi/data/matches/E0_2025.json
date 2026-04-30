@@ -1,0 +1,58 @@
+{
+  "tournament": "E0",
+  "season": 2025,
+  "match_count": 10,
+  "timestamp": "2026-04-17T13:38:12.423595",
+  "matches": [
+    {
+      "url": "https://www.sofascore.com/football/match/bournemouth-arsenal/Rkb#id:14025021",
+      "match_text": "1\n-\n2",
+      "extracted_at": "2026-04-17T13:38:12.008582"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/chelsea-manchester-city/rN#id:14023998",
+      "match_text": "0\n-\n3",
+      "extracted_at": "2026-04-17T13:38:12.027433"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/real-madrid-fc-bayern-munchen/xdbsEgb#id:15632088",
+      "match_text": "Bayern - Real Madrid",
+      "extracted_at": "2026-04-17T13:38:12.042096"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/atletico-madrid-barcelona/rgbsLgb#id:15632089",
+      "match_text": "Atl. Madrid - Barcelona",
+      "extracted_at": "2026-04-17T13:38:12.066810"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/paris-saint-germain-liverpool/UsUH#id:15632087",
+      "match_text": "Liverpool - PSG",
+      "extracted_at": "2026-04-17T13:38:12.313208"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/chelsea-manchester-united/mcYb#id:14025032",
+      "match_text": "Chelsea - Man Utd",
+      "extracted_at": "2026-04-17T13:38:12.343536"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/sporting-cp-arsenal/Rsbkb#id:15632631",
+      "match_text": "Arsenal - Sporting",
+      "extracted_at": "2026-04-17T13:38:12.360173"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/manchester-united-leeds-united/JsK#id:14025024",
+      "match_text": "Man Utd - Leeds",
+      "extracted_at": "2026-04-17T13:38:12.374568"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/atletico-madrid-real-sociedad/zgbsLgb#id:15664537",
+      "match_text": "Atl. Madrid - Real Sociedad",
+      "extracted_at": "2026-04-17T13:38:12.389054"
+    },
+    {
+      "url": "https://www.sofascore.com/football/match/tottenham-hotspur-brighton-and-hove-albion/FsI#id:14025042",
+      "match_text": "Tottenham - Brighton",
+      "extracted_at": "2026-04-17T13:38:12.403115"
+    }
+  ]
+}

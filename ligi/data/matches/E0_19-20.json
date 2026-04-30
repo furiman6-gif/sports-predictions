@@ -1,0 +1,98 @@
+{
+  "tournament": "E0",
+  "season": "19/20",
+  "count": 18,
+  "saved_at": "2026-04-17T13:50:06.672055",
+  "matches": [
+    {
+      "match_id": "8692287",
+      "text": "26.07.20FTArsenalWatford32",
+      "url": "https://www.sofascore.com/pl/football/match/arsenal-watford/zR#id:8692287"
+    },
+    {
+      "match_id": "8692283",
+      "text": "26.07.20FTBurnleyBrighton12",
+      "url": "https://www.sofascore.com/pl/football/match/brighton-and-hove-albion-burnley/gsF#id:8692283"
+    },
+    {
+      "match_id": "8692290",
+      "text": "26.07.20FTChelseaWolves20",
+      "url": "https://www.sofascore.com/pl/football/match/chelsea-wolverhampton/dsN#id:8692290"
+    },
+    {
+      "match_id": "8692282",
+      "text": "26.07.20FTCrystal PalaceTottenham11",
+      "url": "https://www.sofascore.com/pl/football/match/tottenham-hotspur-crystal-palace/hI#id:8692282"
+    },
+    {
+      "match_id": "8692285",
+      "text": "26.07.20FTEvertonBournemouth13",
+      "url": "https://www.sofascore.com/pl/football/match/bournemouth-everton/Yskb#id:8692285"
+    },
+    {
+      "match_id": "8692288",
+      "text": "26.07.20FTLeicesterMan Utd02",
+      "url": "https://www.sofascore.com/pl/football/match/manchester-united-leicester-city/GK#id:8692288"
+    },
+    {
+      "match_id": "8692284",
+      "text": "26.07.20FTMan CityNorwich50",
+      "url": "https://www.sofascore.com/pl/football/match/norwich-city-manchester-city/rnf#id:8692284"
+    },
+    {
+      "match_id": "8692286",
+      "text": "26.07.20FTNewcastleLiverpool13",
+      "url": "https://www.sofascore.com/pl/football/match/liverpool-newcastle-united/OU#id:8692286"
+    },
+    {
+      "match_id": "8692291",
+      "text": "26.07.20FTSouthamptonSheffield Utd31",
+      "url": "https://www.sofascore.com/pl/football/match/southampton-sheffield-united/psV#id:8692291"
+    },
+    {
+      "match_id": "8692289",
+      "text": "26.07.20FTWest HamAston Villa11",
+      "url": "https://www.sofascore.com/pl/football/match/aston-villa-west-ham-united/MP#id:8692289"
+    },
+    {
+      "match_id": "15632088",
+      "text": "Bayern - Real Madrid",
+      "url": "https://www.sofascore.com/pl/football/match/real-madrid-fc-bayern-munchen/xdbsEgb#id:15632088"
+    },
+    {
+      "match_id": "15632089",
+      "text": "Atl. Madrid - Barcelona",
+      "url": "https://www.sofascore.com/pl/football/match/atletico-madrid-barcelona/rgbsLgb#id:15632089"
+    },
+    {
+      "match_id": "15632087",
+      "text": "Liverpool - PSG",
+      "url": "https://www.sofascore.com/pl/football/match/paris-saint-germain-liverpool/UsUH#id:15632087"
+    },
+    {
+      "match_id": "14025032",
+      "text": "Chelsea - Man Utd",
+      "url": "https://www.sofascore.com/pl/football/match/chelsea-manchester-united/mcYb#id:14025032"
+    },
+    {
+      "match_id": "15632631",
+      "text": "Arsenal - Sporting",
+      "url": "https://www.sofascore.com/pl/football/match/sporting-cp-arsenal/Rsbkb#id:15632631"
+    },
+    {
+      "match_id": "14025024",
+      "text": "Man Utd - Leeds",
+      "url": "https://www.sofascore.com/pl/football/match/manchester-united-leeds-united/JsK#id:14025024"
+    },
+    {
+      "match_id": "15664537",
+      "text": "Atl. Madrid - Real Sociedad",
+      "url": "https://www.sofascore.com/pl/football/match/atletico-madrid-real-sociedad/zgbsLgb#id:15664537"
+    },
+    {
+      "match_id": "14025042",
+      "text": "Tottenham - Brighton",
+      "url": "https://www.sofascore.com/pl/football/match/tottenham-hotspur-brighton-and-hove-albion/FsI#id:14025042"
+    }
+  ]
+}

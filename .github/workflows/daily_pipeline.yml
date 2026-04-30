@@ -1,0 +1,131 @@
+name: Daily Sports Pipeline
+
+on:
+  schedule:
+    # Codziennie o 06:00 UTC (08:00 PL czasu letniego)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # reczne odpalenie
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ══════════════════════════════════════════
+      # LIGI - Pipeline pilkarski
+      # ══════════════════════════════════════════
+      - name: "[LIGI] Download results"
+        working-directory: ligi
+        run: python download_results.py
+
+      - name: "[LIGI] Fetch fixtures"
+        working-directory: ligi
+        env:
+          FD_TOKEN: ${{ secrets.FD_TOKEN }}
+        run: python fetch_fixtures.py
+
+      - name: "[LIGI] Append fixtures to 22 leagues"
+        working-directory: ligi
+        run: python append_fixtures_22.py
+
+      - name: "[LIGI] Bars6 rankings (22 leagues)"
+        working-directory: ligi
+        run: |
+          for csv in \
+            Belgium/First_Division_A/wszystkie_sezony.csv \
+            England/Premier_League/wszystkie_sezony.csv \
+            England/Championship/wszystkie_sezony.csv \
+            England/League_One/wszystkie_sezony.csv \
+            England/League_Two/wszystkie_sezony.csv \
+            England/Conference/wszystkie_sezony.csv \
+            France/Ligue_1/wszystkie_sezony.csv \
+            France/Ligue_2/wszystkie_sezony.csv \
+            Germany/Bundesliga_1/wszystkie_sezony.csv \
+            Germany/Bundesliga_2/wszystkie_sezony.csv \
+            Greece/Super_League/wszystkie_sezony.csv \
+            Italy/Serie_A/wszystkie_sezony.csv \
+            Italy/Serie_B/wszystkie_sezony.csv \
+            Netherlands/Eredivisie/wszystkie_sezony.csv \
+            Portugal/Primeira_Liga/wszystkie_sezony.csv \
+            Scotland/Premiership/wszystkie_sezony.csv \
+            Scotland/Championship/wszystkie_sezony.csv \
+            Scotland/League_One/wszystkie_sezony.csv \
+            Scotland/League_Two/wszystkie_sezony.csv \
+            Spain/La_Liga/wszystkie_sezony.csv \
+            Spain/Segunda_Division/wszystkie_sezony.csv \
+            Turkey/Super_Lig/wszystkie_sezony.csv; do
+            echo "--- $csv"
+            python bars6.py "$csv" || true
+          done
+
+      - name: "[LIGI] Train + predict (22 leagues x 5 targets)"
+        working-directory: ligi
+        run: python auto_future_optimizer.py
+
+      # ══════════════════════════════════════════
+      # TENIS - Pipeline tenisowy
+      # ══════════════════════════════════════════
+      - name: "[TENIS] Pipeline dzienny (download + scraper + stats)"
+        working-directory: TENISS_FINAL/stats
+        run: python pipeline_dzienny.py
+
+      - name: "[TENIS] GBM training + predictions"
+        working-directory: TENISS_FINAL
+        run: printf '\n\n\n\n' | python gbm4_tenis.py
+
+      # ══════════════════════════════════════════
+      # Kopiuj outputy do data/ (dla Streamlit)
+      # ══════════════════════════════════════════
+      - name: Collect outputs for dashboard
+        run: |
+          mkdir -p data/ligi data/tenis
+
+          # Ligi outputs
+          cp -f ligi/auto_outputs_future/future_predictions_all.csv data/ligi/ 2>/dev/null || true
+          cp -f ligi/auto_outputs_future/future_predictions_1row_all_targets.csv data/ligi/ 2>/dev/null || true
+          cp -f ligi/auto_outputs_future/best_settings.csv data/ligi/ 2>/dev/null || true
+          cp -f ligi/auto_outputs_future/calibration_5pct_bins.csv data/ligi/ 2>/dev/null || true
+          cp -f ligi/auto_outputs_future/overdue_predictions_all.csv data/ligi/ 2>/dev/null || true
+
+          # Tenis outputs
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/future_predictions.csv data/tenis/ 2>/dev/null || true
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/future_predictions_aggressive.csv data/tenis/ 2>/dev/null || true
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/future_predictions_recommended.csv data/tenis/ 2>/dev/null || true
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/summary.csv data/tenis/ 2>/dev/null || true
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/calibration_bins.csv data/tenis/ 2>/dev/null || true
+          cp -f TENISS_FINAL/outputs_tenis/tenis_ALL/feature_importance.csv data/tenis/ 2>/dev/null || true
+
+          echo "Outputs collected:"
+          ls -la data/ligi/ data/tenis/
+
+      # ══════════════════════════════════════════
+      # Commit + push wynikow
+      # ══════════════════════════════════════════
+      - name: Commit and push results
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git add ligi/auto_outputs_future/future_predictions_all.csv || true
+          git add ligi/auto_outputs_future/future_predictions_1row_all_targets.csv || true
+          git add ligi/auto_outputs_future/best_settings.csv || true
+          git add TENISS_FINAL/outputs_tenis/tenis_ALL/future_predictions*.csv || true
+          git add TENISS_FINAL/outputs_tenis/tenis_ALL/summary.csv || true
+          git diff --cached --quiet && echo "No changes" || git commit -m "Daily pipeline update $(date +%Y-%m-%d)"
+          git push

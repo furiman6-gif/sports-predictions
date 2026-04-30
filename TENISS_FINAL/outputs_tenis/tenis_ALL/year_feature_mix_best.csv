@@ -1,0 +1,3 @@
+objective,profile,n_last,min_year,train_seasons,valid_seasons,test_seasons,n_features,calib_used,test_logloss,test_ece,best_value_threshold,best_value_roi_pct,best_value_bets,best_bank_threshold,best_bank_roi_pct,best_bank_dd_pct,best_bank_final
+bankroll,rolling_only,20,1990,2007-2022,2023-2024,2025-2026,15,raw,0.63077,0.01969,0.72,23.01,46,0.55,2130.84,85.6,22308.43
+flat_value,rolling_only,16,2000,2011-2023,2024-2024,2025-2026,15,raw,0.62963,0.0112,0.75,33.0,19,0.56,2065.44,81.34,21654.43

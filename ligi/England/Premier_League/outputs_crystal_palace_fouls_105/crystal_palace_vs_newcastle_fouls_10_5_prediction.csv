@@ -1,0 +1,2 @@
+Date,HomeTeam,AwayTeam,Season,target_team,opp_team,target_is_home,target_foul_column,line,prob_over_line,prob_under_or_equal_line
+2026-04-12,Crystal Palace,Newcastle,2025,Crystal Palace,Newcastle,True,HF,10.5,0.7320700143351045,0.26792998566489545

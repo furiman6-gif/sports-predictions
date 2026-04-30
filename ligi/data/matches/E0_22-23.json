@@ -1,0 +1,116 @@
+{
+  "tournament": "E0",
+  "season": "22/23",
+  "count": 18,
+  "saved_at": "2026-04-17T13:45:52.812188",
+  "matches": [
+    {
+      "match_id": "10385712",
+      "url": "https://www.sofascore.com/pl/football/match/arsenal-wolverhampton/dsR#id:10385712",
+      "text": "28.05.23FTArsenalWolves50",
+      "scraped_at": "2026-04-17T13:45:52.811722"
+    },
+    {
+      "match_id": "10385710",
+      "url": "https://www.sofascore.com/pl/football/match/aston-villa-brighton-and-hove-albion/FP#id:10385710",
+      "text": "28.05.23FTAston VillaBrighton21",
+      "scraped_at": "2026-04-17T13:45:52.811732"
+    },
+    {
+      "match_id": "10385711",
+      "url": "https://www.sofascore.com/pl/football/match/brentford-manchester-city/rsab#id:10385711",
+      "text": "28.05.23FTBrentfordMan City10",
+      "scraped_at": "2026-04-17T13:45:52.811736"
+    },
+    {
+      "match_id": "10385709",
+      "url": "https://www.sofascore.com/pl/football/match/newcastle-united-chelsea/NO#id:10385709",
+      "text": "28.05.23FTChelseaNewcastle11",
+      "scraped_at": "2026-04-17T13:45:52.811740"
+    },
+    {
+      "match_id": "10385727",
+      "url": "https://www.sofascore.com/pl/football/match/nottingham-forest-crystal-palace/hso#id:10385727",
+      "text": "28.05.23FTCrystal PalaceForest11",
+      "scraped_at": "2026-04-17T13:45:52.811744"
+    },
+    {
+      "match_id": "10385724",
+      "url": "https://www.sofascore.com/pl/football/match/bournemouth-everton/Yskb#id:10385724",
+      "text": "28.05.23FTEvertonBournemouth10",
+      "scraped_at": "2026-04-17T13:45:52.811747"
+    },
+    {
+      "match_id": "10385726",
+      "url": "https://www.sofascore.com/pl/football/match/leeds-united-tottenham-hotspur/IsJ#id:10385726",
+      "text": "28.05.23FTLeedsTottenham14",
+      "scraped_at": "2026-04-17T13:45:52.811750"
+    },
+    {
+      "match_id": "10385733",
+      "url": "https://www.sofascore.com/pl/football/match/west-ham-united-leicester-city/GsM#id:10385733",
+      "text": "28.05.23FTLeicesterWest Ham21",
+      "scraped_at": "2026-04-17T13:45:52.811754"
+    },
+    {
+      "match_id": "10385717",
+      "url": "https://www.sofascore.com/pl/football/match/fulham-manchester-united/KsT#id:10385717",
+      "text": "28.05.23FTMan UtdFulham21",
+      "scraped_at": "2026-04-17T13:45:52.811757"
+    },
+    {
+      "match_id": "10385731",
+      "url": "https://www.sofascore.com/pl/football/match/southampton-liverpool/UsV#id:10385731",
+      "text": "28.05.23FTSouthamptonLiverpool44",
+      "scraped_at": "2026-04-17T13:45:52.811760"
+    },
+    {
+      "match_id": "15632088",
+      "url": "https://www.sofascore.com/pl/football/match/real-madrid-fc-bayern-munchen/xdbsEgb#id:15632088",
+      "text": "Bayern - Real Madrid",
+      "scraped_at": "2026-04-17T13:45:52.811764"
+    },
+    {
+      "match_id": "15632089",
+      "url": "https://www.sofascore.com/pl/football/match/atletico-madrid-barcelona/rgbsLgb#id:15632089",
+      "text": "Atl. Madrid - Barcelona",
+      "scraped_at": "2026-04-17T13:45:52.811767"
+    },
+    {
+      "match_id": "15632087",
+      "url": "https://www.sofascore.com/pl/football/match/paris-saint-germain-liverpool/UsUH#id:15632087",
+      "text": "Liverpool - PSG",
+      "scraped_at": "2026-04-17T13:45:52.811770"
+    },
+    {
+      "match_id": "14025032",
+      "url": "https://www.sofascore.com/pl/football/match/chelsea-manchester-united/mcYb#id:14025032",
+      "text": "Chelsea - Man Utd",
+      "scraped_at": "2026-04-17T13:45:52.811773"
+    },
+    {
+      "match_id": "15632631",
+      "url": "https://www.sofascore.com/pl/football/match/sporting-cp-arsenal/Rsbkb#id:15632631",
+      "text": "Arsenal - Sporting",
+      "scraped_at": "2026-04-17T13:45:52.811777"
+    },
+    {
+      "match_id": "14025024",
+      "url": "https://www.sofascore.com/pl/football/match/manchester-united-leeds-united/JsK#id:14025024",
+      "text": "Man Utd - Leeds",
+      "scraped_at": "2026-04-17T13:45:52.811780"
+    },
+    {
+      "match_id": "15664537",
+      "url": "https://www.sofascore.com/pl/football/match/atletico-madrid-real-sociedad/zgbsLgb#id:15664537",
+      "text": "Atl. Madrid - Real Sociedad",
+      "scraped_at": "2026-04-17T13:45:52.811783"
+    },
+    {
+      "match_id": "14025042",
+      "url": "https://www.sofascore.com/pl/football/match/tottenham-hotspur-brighton-and-hove-albion/FsI#id:14025042",
+      "text": "Tottenham - Brighton",
+      "scraped_at": "2026-04-17T13:45:52.811786"
+    }
+  ]
+}

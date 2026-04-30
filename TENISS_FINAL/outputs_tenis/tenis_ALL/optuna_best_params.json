@@ -1,0 +1,27 @@
+{
+  "study_name": "tenis_clf_ALL",
+  "best_value_logloss": 0.602953425188843,
+  "best_trial_number": 283,
+  "best_iteration": 376,
+  "best_params": {
+    "learning_rate": 0.01909776389833138,
+    "num_leaves": 132,
+    "max_depth": 11,
+    "min_child_samples": 186,
+    "min_child_weight": 1.164211684062098,
+    "subsample": 0.8335734783374043,
+    "subsample_freq": 0,
+    "colsample_bytree": 0.6678564178948477,
+    "reg_alpha": 0.004431999894355988,
+    "reg_lambda": 3.450520795710503e-06,
+    "min_split_gain": 0.1986156278760198,
+    "path_smooth": 0.17778788610023838,
+    "extra_trees": false,
+    "max_bin": 255,
+    "n_estimators": 376
+  },
+  "n_trials_total": 501,
+  "n_complete": 205,
+  "n_pruned": 296,
+  "n_failed": 0
+}

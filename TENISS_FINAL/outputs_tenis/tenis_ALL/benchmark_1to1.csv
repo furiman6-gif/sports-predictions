@@ -1,0 +1,4 @@
+profile,n_last,min_year,train_seasons,valid_seasons,test_seasons,n_features,calib_used,test_logloss,test_ece,best_value_threshold,best_value_roi_pct,best_value_bets,best_bank_threshold,best_bank_roi_pct,best_bank_dd_pct,best_bank_final,config,test_period,delta_bank_roi_pct,delta_value_roi_pct,delta_bank_dd_pct,delta_test_logloss,delta_test_ece,baseline_bank_roi_pct,candidate_bank_roi_pct,baseline_value_roi_pct,candidate_value_roi_pct
+,59.0,1968.0,1968-2014,2015-2020,2021-2026,24.0,raw,0.59148,0.01315,0.61,18.08,392.0,0.61,372.8,24.56,4728.04,baseline_full,2021-2026,,,,,,,,,
+,59.0,1968.0,1968-2014,2015-2020,2021-2026,9.0,raw,0.59074,0.01672,0.6,14.54,393.0,0.6,220.57,29.17,3205.7,candidate_core_plus_odds,2021-2026,,,,,,,,,
+,,,,,,,,,,,,,,,,,delta_candidate_minus_baseline,2021-2026,-152.23000000000002,-3.539999999999999,4.610000000000003,-0.0007399999999999629,0.0035699999999999985,372.8,220.57,18.08,14.54

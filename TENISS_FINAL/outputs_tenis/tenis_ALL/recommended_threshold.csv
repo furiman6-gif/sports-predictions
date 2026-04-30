@@ -1,0 +1,3 @@
+profile,recommended_threshold,roi_pct_avg,roi_pct_min,max_dd_avg,rule
+aggressive,0.55,7.01,-1.61,32.23,max avg ROI
+stable,0.69,2.52,-1.08,14.83,positive avg ROI + mild worst window + low drawdown
