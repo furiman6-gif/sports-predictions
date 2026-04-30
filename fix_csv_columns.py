@@ -1,82 +1,82 @@
 """
-Naprawia wszystkie CSV w ligi/ ktore maja niedopasowane liczby kolumn
-(trailing commas, Windows line endings, ragged rows).
+Naprawia wszystkie CSV w ligi/ ktore maja niedopasowane liczby kolumn.
 
-Strategia:
-1. Czyta naglowek
-2. Strip trailing empty columns z naglowka
-3. Truncate kazdy wiersz do len(header) kolumn (lub pad pustymi)
-4. Zapisuje z LF line endings, bez quoting jesli niepotrzebne
+Strategia line-based (nie uzywa csv module - zeby uniknac problemow z quotami):
+1. Czyta plik jako tekst, splituje po liniach
+2. Header: split po przecinku, strip trailing \r i empty cells
+3. Kazdy wiersz: split po przecinku, strip \r, truncate/pad do len(header)
+4. Zapisuje z LF endings
 """
-import csv
 import sys
 from pathlib import Path
 
 
-def fix_csv(path: Path) -> bool:
-    """Zwraca True jesli plik zmieniony."""
+def fix_csv(path: Path) -> tuple[bool, int, int]:
+    """Zwraca (zmieniony, n_naprawionych_wierszy, n_kolumn)."""
     try:
-        with open(path, encoding="utf-8", errors="replace", newline="") as f:
-            reader = csv.reader(f)
-            rows = list(reader)
+        text = path.read_text(encoding="utf-8", errors="replace")
     except Exception as e:
         print(f"  BLAD odczytu {path}: {e}")
-        return False
+        return False, 0, 0
 
-    if not rows:
-        return False
+    lines = text.splitlines()
+    if not lines:
+        return False, 0, 0
 
-    header = rows[0]
-    # Strip trailing empty columns z naglowka
-    while header and header[-1].strip() == "":
-        header.pop()
-    n_cols = len(header)
+    # Header: strip \r, strip trailing empty fields
+    header_line = lines[0].rstrip("\r")
+    header_fields = header_line.split(",")
+    while header_fields and header_fields[-1].strip() == "":
+        header_fields.pop()
+    n_cols = len(header_fields)
     if n_cols == 0:
-        return False
+        return False, 0, 0
 
-    # Sprawdz czy potrzebna naprawa
-    needs_fix = False
-    for r in rows[1:]:
-        if len(r) != n_cols:
-            needs_fix = True
-            break
+    fixed_lines = [",".join(header_fields)]
+    n_fixed = 0
 
-    if not needs_fix:
-        return False
+    for line in lines[1:]:
+        line = line.rstrip("\r")
+        if not line.strip():
+            continue
+        fields = line.split(",")
+        original_len = len(fields)
+        if original_len > n_cols:
+            fields = fields[:n_cols]
+            n_fixed += 1
+        elif original_len < n_cols:
+            fields = fields + [""] * (n_cols - original_len)
+            n_fixed += 1
+        fixed_lines.append(",".join(fields))
 
-    # Naprawiaj: truncate lub pad
-    fixed_rows = [header]
-    for r in rows[1:]:
-        if len(r) > n_cols:
-            fixed_rows.append(r[:n_cols])
-        elif len(r) < n_cols:
-            fixed_rows.append(r + [""] * (n_cols - len(r)))
-        else:
-            fixed_rows.append(r)
+    # Sprawdz czy header sie zmienil albo cokolwiek bylo naprawione
+    header_changed = lines[0].rstrip("\r") != ",".join(header_fields)
+    if not header_changed and n_fixed == 0:
+        return False, 0, n_cols
 
-    with open(path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(fixed_rows)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(fixed_lines) + "\n")
 
-    return True
+    return True, n_fixed, n_cols
 
 
 def main():
     root = Path("ligi")
     if not root.exists():
-        print(f"Brak katalogu {root}")
-        return
+        print(f"BLAD: brak katalogu {root}")
+        sys.exit(1)
 
-    csv_files = list(root.rglob("*.csv"))
+    csv_files = sorted(root.rglob("*.csv"))
     print(f"Sprawdzam {len(csv_files)} plikow CSV w {root}/...")
 
-    fixed = 0
+    fixed_count = 0
     for path in csv_files:
-        if fix_csv(path):
-            fixed += 1
-            print(f"  Naprawiono: {path}")
+        changed, n_fixed, n_cols = fix_csv(path)
+        if changed:
+            fixed_count += 1
+            print(f"  [{n_cols} kol] naprawiono {n_fixed} wierszy: {path}")
 
-    print(f"\nNaprawiono {fixed} z {len(csv_files)} plikow.")
+    print(f"\nNaprawiono {fixed_count} z {len(csv_files)} plikow.")
 
 
 if __name__ == "__main__":

@@ -24,6 +24,45 @@ AWAY_COL = "AwayTeam"
 DATE_COL = "Date"
 CHECKPOINT_EVERY = 200
 
+
+def _prefix_csv_columns(path):
+    """Naprawia trailing comma / ragged rows w CSV przed pd.read_csv."""
+    try:
+        text = open(path, encoding="utf-8", errors="replace").read()
+    except Exception:
+        return
+    lines = text.splitlines()
+    if not lines:
+        return
+    header_fields = lines[0].rstrip("\r").split(",")
+    while header_fields and header_fields[-1].strip() == "":
+        header_fields.pop()
+    n_cols = len(header_fields)
+    if n_cols == 0:
+        return
+    needs_fix = False
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        if line.rstrip("\r").count(",") + 1 != n_cols:
+            needs_fix = True
+            break
+    if not needs_fix and lines[0].rstrip("\r") == ",".join(header_fields):
+        return
+    fixed = [",".join(header_fields)]
+    for line in lines[1:]:
+        line = line.rstrip("\r")
+        if not line.strip():
+            continue
+        fields = line.split(",")
+        if len(fields) > n_cols:
+            fields = fields[:n_cols]
+        elif len(fields) < n_cols:
+            fields = fields + [""] * (n_cols - len(fields))
+        fixed.append(",".join(fields))
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(fixed) + "\n")
+
 class WengLinRating:
     def __init__(self, mu=1500.0, sigma=500.0):
         self.mu = mu; self.sigma = sigma
@@ -791,6 +830,7 @@ def process_file(file_path):
     dir_path = os.path.dirname(os.path.abspath(file_path))
     output_file = os.path.join(dir_path, f"{prefix_name}_bars6_Cechy_Rankingowe.csv")
     state_file = _state_file_path(file_path)
+    _prefix_csv_columns(file_path)
     df = pd.read_csv(file_path, low_memory=False, on_bad_lines="warn")
 
     # Upewnij się, że mamy kolumny z datą i nazwami drużyn (różne źródła mogą mieć inne nazwy)
@@ -1196,6 +1236,7 @@ def process_file(file_path):
     if siam_cols:
         source_csv = file_path
         try:
+            _prefix_csv_columns(source_csv)
             main_df = pd.read_csv(source_csv, low_memory=False, on_bad_lines="warn")
             key_cols = ["Date", "HomeTeam", "AwayTeam"]
             merge_df = df_out[key_cols + siam_cols].copy()

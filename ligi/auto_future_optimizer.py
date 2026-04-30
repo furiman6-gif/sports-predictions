@@ -14,6 +14,45 @@ from sklearn.metrics import accuracy_score, log_loss
 ROOT = Path(__file__).parent
 OUT_DIR = ROOT / "auto_outputs_future"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _prefix_csv_columns(path):
+    """Naprawia trailing comma / ragged rows w CSV przed pd.read_csv."""
+    try:
+        text = open(path, encoding="utf-8", errors="replace").read()
+    except Exception:
+        return
+    lines = text.splitlines()
+    if not lines:
+        return
+    header_fields = lines[0].rstrip("\r").split(",")
+    while header_fields and header_fields[-1].strip() == "":
+        header_fields.pop()
+    n_cols = len(header_fields)
+    if n_cols == 0:
+        return
+    needs_fix = False
+    for line in lines[1:]:
+        if not line.strip():
+            continue
+        if line.rstrip("\r").count(",") + 1 != n_cols:
+            needs_fix = True
+            break
+    if not needs_fix and lines[0].rstrip("\r") == ",".join(header_fields):
+        return
+    fixed = [",".join(header_fields)]
+    for line in lines[1:]:
+        line = line.rstrip("\r")
+        if not line.strip():
+            continue
+        fields = line.split(",")
+        if len(fields) > n_cols:
+            fields = fields[:n_cols]
+        elif len(fields) < n_cols:
+            fields = fields + [""] * (n_cols - len(fields))
+        fixed.append(",".join(fields))
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(fixed) + "\n")
 TODAY = pd.Timestamp.today().normalize()
 FUTURE_DAYS_AHEAD = 7
 OVERDUE_DAYS_BACK = 3
@@ -70,6 +109,7 @@ def detect_future_leagues() -> list[dict]:
         if csv_path is None:
             continue
         try:
+            _prefix_csv_columns(csv_path)
             df = pd.read_csv(csv_path, low_memory=False, on_bad_lines="warn")
         except Exception:
             continue
@@ -105,6 +145,7 @@ def detect_forced_leagues() -> list[dict]:
         if not gbm4_path.exists() or not csv_path.exists():
             continue
         try:
+            _prefix_csv_columns(csv_path)
             df = pd.read_csv(csv_path, low_memory=False, on_bad_lines="warn")
             df = ensure_ftr_column(df)
             if "Date" in df.columns:
@@ -570,6 +611,7 @@ def add_home_away_context_features(module, df: pd.DataFrame) -> pd.DataFrame:
 
 
 def prepare_bundle(module, n_last_seasons: int, target_mode: str, split_mode: str = "auto", use_xg: bool = True, league_name: str | None = None):
+    _prefix_csv_columns(module.CSV_PATH)
     df_all = pd.read_csv(module.CSV_PATH, low_memory=False, on_bad_lines="warn")
     df_all = ensure_ftr_column(df_all)
     df_all = module.parse_date(df_all)
@@ -882,6 +924,7 @@ def run_league(league_info: dict, target_mode: str):
     module = load_gbm4_module(gbm4_path)
     module.CSV_PATH = str(league_info["csv_path"])
 
+    _prefix_csv_columns(module.CSV_PATH)
     df_all = pd.read_csv(module.CSV_PATH, low_memory=False, on_bad_lines="warn")
     df_all = ensure_ftr_column(df_all)
     df_all = module.parse_date(df_all)
